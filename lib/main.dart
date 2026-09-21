@@ -1,10 +1,9 @@
-import 'package:ewtlanding/l10n/app_localizations.dart';
+import 'package:EwtLandingPage/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'landing/presentation/landing_page.dart';
 import 'landing/presentation/theme/landing_theme.dart';
-
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

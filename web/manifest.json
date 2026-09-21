@@ -1,6 +1,6 @@
 {
-    "name": "ewtlanding",
-    "short_name": "ewtlanding",
+    "name": "EwtLandingPage",
+    "short_name": "EwtLandingPage",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

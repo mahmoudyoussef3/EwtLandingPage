@@ -1,4 +1,4 @@
-# ewtlanding
+# EwtLandingPage
 
 A new Flutter project.
 

@@ -1,4 +1,4 @@
-package com.example.ewtlanding
+package com.example.EwtLandingPage
 
 import io.flutter.embedding.android.FlutterActivity
 

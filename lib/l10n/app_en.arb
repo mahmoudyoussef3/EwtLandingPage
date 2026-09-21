@@ -1,0 +1,2904 @@
+{
+  "@@locale": "en",
+  "common_retry": "Retry",
+  "common_view": "View",
+  "common_dismiss": "Dismiss",
+  "common_confirm": "Confirm",
+  "common_cancel": "Cancel",
+  "common_save": "Save",
+  "common_delete": "Delete",
+  "common_error": "Something went wrong",
+  "home_goodMorning": "Good morning, {name}",
+  "@home_goodMorning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "home_readyForCommute": "Ready for your commute today?",
+  "home_tripStarted": "Your trip has started",
+  "home_upcomingTrip": "Your upcoming trip",
+  "home_trackBus": "Track the bus and current stop",
+  "home_reviewTrip": "Review trip details before departure",
+  "home_tripRoute": "Trip Route",
+  "home_liveTracking": "Live tracking",
+  "home_stationsCount": "{count} stations",
+  "@home_stationsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "home_moreStations": "There are {count} more stations in trip details",
+  "@home_moreStations": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "home_pointPassed": "Passed",
+  "home_pointCurrent": "Bus is here",
+  "home_pointStart": "Start Point",
+  "home_pointEnd": "End Point",
+  "home_pointStation": "Station",
+  "home_trackTrip": "Track Trip",
+  "home_tripDetails": "Details",
+  "home_whereTo": "Where to?",
+  "home_searchDestination": "Search destination...",
+  "home_quickDestinations": "Quick destinations",
+  "home_packagesTitle": "Packages",
+  "home_packagesSubtitle": "Built for daily commuters",
+  "home_seeAll": "See all",
+  "home_popularRoutesTitle": "Popular routes",
+  "home_popularRoutesSubtitle": "Frequent commutes from your area",
+  "home_viewAll": "View all",
+  "home_contactSupport": "Need help? Contact support",
+  "auth_welcomeTitle": "Welcome to EasyWay",
+  "auth_welcomeSubtitle": "Your premium daily commute and transportation manager.",
+  "auth_login": "Log In",
+  "auth_createAccount": "Create an Account",
+  "auth_termsPrefix": "By continuing, you agree to our ",
+  "auth_termsOfService": "Terms of Service",
+  "auth_termsAnd": " and ",
+  "auth_privacyPolicy": "Privacy Policy",
+  "auth_signInFailed": "Sign in failed.",
+  "auth_rememberMe": "Remember me",
+  "auth_welcomeBack": "Welcome Back",
+  "auth_signInSubtitle": "Sign in to book your next trip",
+  "auth_email": "Email Address",
+  "auth_required": "Required",
+  "auth_invalidEmail": "Enter a valid email",
+  "auth_password": "Password",
+  "auth_forgotPassword": "Forgot Password?",
+  "auth_signIn": "Sign In",
+  "auth_noAccount": "Don't have an account? ",
+  "auth_signUp": "Sign Up",
+  "auth_registrationFailed": "Registration failed.",
+  "auth_createAccountTitle": "Create Account",
+  "auth_signUpSubtitle": "Join EasyWay to book and track your trips",
+  "auth_fullName": "Full Name",
+  "auth_invalidFullName": "Enter your full name",
+  "auth_phoneNumber": "Phone Number",
+  "auth_invalidPhone": "Enter a valid phone number",
+  "auth_invalidPassword": "Password must be at least 6 characters",
+  "auth_forgotPasswordTitle": "Forgot your password?",
+  "auth_forgotPasswordSubtitle": "No worries. Enter your email and we’ll send you a secure link to reset your password.",
+  "auth_sendResetLink": "Send reset link",
+  "auth_backToLogin": "Back to Login",
+  "auth_checkEmailTitle": "Check your email",
+  "auth_checkEmailMessage": "We sent a secure reset link to {email}. Open it to create a new password.",
+  "@auth_checkEmailMessage": {
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "user@example.com"
+      }
+    }
+  },
+  "auth_resendLink": "Resend link",
+  "auth_resendIn": "Resend link in {seconds}s",
+  "@auth_resendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "60"
+      }
+    }
+  },
+  "auth_rateLimited": "Please wait before requesting another reset link.",
+  "auth_unknownError": "An unexpected error occurred. Please try again later.",
+  "auth_alreadyHaveAccount": "Already have an account? ",
+  "booking_title": "Bookings",
+  "booking_subtitle": "Choose how you want to book your commute",
+  "booking_today": "Today",
+  "booking_month": "Month",
+  "booking_dailyBooking": "Daily Booking",
+  "booking_dailyBookingDesc": "Book a trip step by step for today",
+  "booking_monthlySubscription": "Monthly Subscription",
+  "booking_monthlySubscriptionDesc": "Reserve your permanent route and seat",
+  "booking_summary": "Summary",
+  "booking_activeTrips": "Active trips",
+  "booking_upcomingBookings": "Upcoming bookings",
+  "booking_reservedSeats": "Reserved seats",
+  "booking_selectPickupDestination": "Select pickup and destination to continue",
+  "booking_searchTrip": "Search Trip",
+  "booking_pickupLocation": "Pickup location",
+  "booking_destination": "Destination",
+  "booking_selectDate": "Select date",
+  "booking_selectTime": "Select time",
+  "booking_otherWaysToSearch": "Other ways to search",
+  "booking_browseOrPickMap": "Browse or pick on map",
+  "booking_popularRoutes": "Popular Routes",
+  "booking_popularRoutesSubtitle": "Most used commutes in your network",
+  "booking_selectOnMap": "Route Map",
+  "booking_selectOnMapSubtitle": "Zoom in or out to view trip routes",
+  "booking_selectPickupPoint": "Select Pickup Point",
+  "booking_selectDestination": "Select Destination",
+  "booking_availableVehicles": "Available Vehicles",
+  "booking_pickBestShuttle": "Pick the best shuttle for your trip",
+  "booking_bookYourRide": "Book Your Ride",
+  "booking_stepOf4": "Step {step} of 4",
+  "@booking_stepOf4": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_selectVehicle": "Select Vehicle",
+  "booking_availableOptions": "{count} options available now",
+  "@booking_availableOptions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_sortRecommended": "Recommended",
+  "booking_sortPriceLow": "Price Low",
+  "booking_sortRating": "Rating",
+  "booking_searchingBestOptions": "Searching for best options...",
+  "booking_errorLoadingVehicles": "Could not load vehicles",
+  "common_tryAgain": "Try again",
+  "booking_noVehiclesAvailable": "No vehicles available",
+  "booking_noVehiclesDesc": "No vehicles available for this time. Try a different arrival time or search again.",
+  "booking_searchAgain": "Search Again",
+  "booking_selectRoute": "Select Route",
+  "booking_compareVehicles": "Compare Vehicles",
+  "booking_availableRoutes": "Available routes",
+  "booking_optionsForSearch": "{count} options for your search",
+  "@booking_optionsForSearch": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_map": "Map",
+  "booking_vehicleDetails": "Vehicle Details",
+  "booking_recommendedForYou": "Recommended for you",
+  "booking_comfortAndAmenities": "Comfort & Amenities",
+  "booking_comfortDesc": "Check comfort level before selecting your seat",
+  "booking_driver": "Driver",
+  "booking_driverDesc": "Captain details and rating",
+  "booking_priceAndAvailability": "Price & Availability",
+  "booking_priceDesc": "Cost and number of available seats",
+  "booking_ac": "AC",
+  "booking_available": "Available",
+  "booking_unavailable": "Unavailable",
+  "booking_seatType": "Seat Type",
+  "booking_recliningSeats": "Reclining Seats",
+  "common_yes": "Yes",
+  "common_no": "No",
+  "booking_vehicleCondition": "Vehicle Condition",
+  "booking_legRoom": "Leg Room",
+  "booking_ratingExcellent": "Excellent",
+  "booking_ratingVeryGood": "Very Good",
+  "booking_ratingGood": "Good",
+  "booking_ratingNormal": "Normal",
+  "booking_certified": "Certified",
+  "booking_completedTrips": "completed trips",
+  "booking_yearsExperience": "years exp",
+  "booking_tripPrice": "Trip Price",
+  "booking_remaining": "remaining",
+  "booking_selectPickupDestMap": "Pickup and destination are set by the selected trip",
+  "booking_popular": "Popular",
+  "booking_pickup": "Pickup",
+  "booking_tapMapPickup": "Zoom in or out to view pickup points",
+  "booking_tapMapDest": "Zoom in or out to view destination points",
+  "booking_pickupPoint": "Pickup Point",
+  "booking_notSet": "Not set",
+  "booking_destinationPoint": "Destination Point",
+  "booking_confirmRoute": "Confirm Route",
+  "booking_availableSeats": "Available Seats",
+  "packages_commutePackages": "Commute Packages",
+  "packages_packageDetails": "Package Details",
+  "packages_all": "All",
+  "packages_weekly": "Weekly",
+  "packages_monthly": "Monthly",
+  "packages_quarterly": "Quarterly",
+  "packages_perRide": "Per ride",
+  "packages_emptyTitle": "No packages in this range",
+  "packages_emptyBody": "Try another duration, or pull to refresh to load the latest plans.",
+  "packages_duration": "Duration",
+  "packages_totalTrips": "Total Trips",
+  "packages_ridesCount": "{count} Rides",
+  "@packages_ridesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "packages_egpAmount": "EGP {amount}",
+  "@packages_egpAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "packages_startingPrice": "starting",
+  "packages_whatIsIncluded": "What is Included",
+  "packages_reservedSeatGuaranteed": "Reserved Seat Guaranteed",
+  "packages_reservedSeatDesc": "Your preferred seat is locked for every daily shuttle ride.",
+  "packages_flexibleTiming": "Flexible Ride Timing",
+  "packages_flexibleTimingDesc": "Adjust your ride booking times anytime without cancellation fees.",
+  "packages_routeLimits": "Route & Booking Limits",
+  "packages_routeScope": "Route Scope",
+  "packages_routeScopeDesc": "Fixed designated route selected upon checkout.",
+  "packages_includedRides": "Included Rides",
+  "packages_singleTripsDesc": "{count} single shuttle trips.",
+  "@packages_singleTripsDesc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "packages_validityPeriod": "Validity Period",
+  "packages_consecutiveDaysDesc": "{days} consecutive calendar days.",
+  "@packages_consecutiveDaysDesc": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "packages_termsCancellation": "Terms & Cancellation",
+  "packages_termsText1": "Packages cannot be refunded once activated.",
+  "packages_termsText2": "Seats must be confirmed at least 2 hours before trip.",
+  "packages_termsText3": "Package holds up to {count} reservations for the selected route.",
+  "@packages_termsText3": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "packages_subscriptionCost": "Subscription Cost",
+  "packages_route": "Route",
+  "packages_marketplaceSubtitle": "Discover packages from transport offices",
+  "packages_allOffices": "All offices",
+  "packages_filterByOffice": "Choose office",
+  "packages_officeSearchHint": "Search by office name",
+  "packages_noOfficeMatch": "No office matches \"{query}\"",
+  "@packages_noOfficeMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "packages_fromOffice": "{office} packages",
+  "@packages_fromOffice": {
+    "placeholders": {
+      "office": {
+        "type": "String"
+      }
+    }
+  },
+  "packages_showAllOffices": "Show all",
+  "packages_officePackagesCount": "{count, plural, =1{1 package} other{{count} packages}}",
+  "@packages_officePackagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "packages_emptyMarketplaceTitle": "No packages available yet",
+  "packages_emptyMarketplaceBody": "No office has listed packages for booking yet. Explore the available trips instead.",
+  "packages_exploreTrips": "Explore available trips",
+  "packages_emptyOfficeTitle": "No packages from this office yet",
+  "packages_emptyOfficeBody": "Try another office, or browse every package in the marketplace.",
+  "packages_viewAllOffices": "View all offices",
+  "packages_providedBy": "Provided by",
+  "packages_viewOffice": "View office",
+  "packages_chooseTripToSubscribe": "Choose a trip to subscribe",
+  "error_timeout": "Connection timed out. Please try again.",
+  "error_cancelled": "Request was cancelled.",
+  "error_noInternet": "No internet connection.",
+  "error_badRequest": "Invalid request.",
+  "error_unauthorized": "Unauthorized access.",
+  "error_forbidden": "You do not have permission to access this resource.",
+  "error_notFound": "Resource not found.",
+  "error_validation": "Invalid data provided.",
+  "error_server": "Server error. Please try again later.",
+  "error_unknown": "An unknown error occurred.",
+  "dashboard_home": "Home",
+  "dashboard_bookings": "Bookings",
+  "dashboard_trips": "Trips",
+  "dashboard_fleet": "Fleet Management",
+  "dashboard_routes": "Routes",
+  "dashboard_subscriptions": "Subscriptions",
+  "dashboard_payments": "Finance",
+  "dashboard_tickets": "Tickets",
+  "dashboard_reports": "Reports",
+  "dashboard_settings": "Settings",
+  "dashboard_permissions": "Permissions",
+  "dashboard_panel": "Operation Panel",
+  "dashboard_system": "Transportation Ops System",
+  "dashboard_menu": "Menu",
+  "dashboard_lightMode": "Light Mode",
+  "dashboard_darkMode": "Dark Mode",
+  "dashboard_unauthorized": "This page is not available for the current role",
+  "onboarding_skip": "Skip",
+  "onboarding_next": "Next",
+  "onboarding_getStarted": "Get Started",
+  "onboarding_page1Title": "Travel With Confidence",
+  "onboarding_page1Body": "Book your trip in seconds, choose your seat, and track your vehicle live until you reach your destination safely.",
+  "onboarding_page1FeatureA": "Trip booking",
+  "onboarding_page1FeatureB": "Route discovery",
+  "onboarding_page2Title": "Comfort In Every Ride",
+  "onboarding_page2Body": "Modern vehicles, comfortable seating, and a seamless booking experience designed for your daily commute.",
+  "onboarding_page2FeatureA": "Live tracking",
+  "onboarding_page2FeatureB": "Arrival ETA",
+  "onboarding_page3Title": "Every Journey Starts With Trust",
+  "onboarding_page3Body": "Professional drivers, live tracking, and real-time updates keep you informed from departure to arrival.",
+  "onboarding_page3FeatureA": "Subscriptions",
+  "onboarding_page3FeatureB": "Discounted packages",
+  "onboarding_page4Title": "Pay securely, get help anytime",
+  "onboarding_page4Body": "Pay safely with trusted methods and reach our support team whenever you need.",
+  "onboarding_page4FeatureA": "Secure payments",
+  "onboarding_page4FeatureB": "24/7 support",
+  "welcome_trustSecure": "Secure payments",
+  "welcome_trustLive": "Real-time tracking",
+  "welcome_trustDaily": "Trusted daily commute",
+  "authSuccess_createdTitle": "You're all set!",
+  "authSuccess_createdSubtitle": "Your account is ready. Let's get you moving.",
+  "authSuccess_verifyTitle": "Verify your email",
+  "authSuccess_verifySubtitle": "We sent a confirmation link to {email}. Confirm it to activate your account, then sign in.",
+  "@authSuccess_verifySubtitle": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authSuccess_getStarted": "Get started",
+  "authSuccess_backToSignIn": "Back to sign in",
+  "authSuccess_perkBooking": "Book trips instantly",
+  "authSuccess_perkTracking": "Track rides live",
+  "authSuccess_perkPasses": "Save with passes",
+  "auth_passwordStrengthLabel": "Password strength",
+  "auth_passwordWeak": "Weak",
+  "auth_passwordFair": "Fair",
+  "auth_passwordGood": "Good",
+  "auth_passwordStrong": "Strong",
+  "auth_passwordHint": "Use 8+ characters with letters, numbers and a symbol.",
+  "auth_policyComingSoon": "{title} will open when published.",
+  "@auth_policyComingSoon": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "auth_referralCodeSection": "Referral code (optional)",
+  "auth_referralCodeLabel": "Enter a referral code",
+  "auth_referralCodeHint": "Have a code from a friend? Add it to earn a welcome reward.",
+  "referral_pending": "Pending",
+  "referral_leaderboardTitle": "Top referrers",
+  "referral_leaderboardEmpty": "Be the first to climb the leaderboard.",
+  "referral_you": "You",
+  "tracking_title": "Track your trip",
+  "tracking_loading": "Loading your trip…",
+  "tracking_refresh": "Refresh",
+  "tracking_errorTitle": "We couldn't load your tracking",
+  "tracking_emptyTitle": "No trip to track",
+  "tracking_emptyBody": "Live tracking appears here once a booking of yours is confirmed.",
+  "tracking_emptyAction": "Browse trips",
+  "tracking_stateNotStarted": "Your trip hasn't started yet",
+  "tracking_stateDriverOnWay": "The captain is on the way",
+  "tracking_stateBoarding": "Boarding now",
+  "tracking_stateInProgress": "On the road",
+  "tracking_stateCompleted": "Trip completed",
+  "tracking_signalLive": "Live",
+  "tracking_signalStale": "Signal delayed",
+  "tracking_signalNone": "Waiting for the captain's signal",
+  "tracking_signalOffRoute": "Off route",
+  "tracking_signalReconnecting": "Reconnecting",
+  "tracking_updatedJustNow": "just now",
+  "tracking_updatedMinutesAgo": "{minutes} min ago",
+  "@tracking_updatedMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tracking_etaToYourStop": "Arrives at your stop",
+  "tracking_etaToDestination": "You arrive at",
+  "tracking_etaNow": "Now",
+  "tracking_etaUnavailable": "Not available yet",
+  "tracking_etaMinutes": "{minutes} min",
+  "@tracking_etaMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tracking_etaHoursMinutes": "{hours} h {minutes} min",
+  "@tracking_etaHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tracking_sourceLive": "From live GPS",
+  "tracking_sourceEstimated": "Estimated",
+  "tracking_sourceScheduled": "From the schedule",
+  "tracking_departsAt": "Departs at {time}",
+  "@tracking_departsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tracking_stopsRemaining": "{count, plural, =0{No stops left} =1{1 stop left} other{{count} stops left}}",
+  "@tracking_stopsRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tracking_yourBooking": "Your booking",
+  "tracking_seat": "Seat {label}",
+  "@tracking_seat": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "tracking_boarded": "You're on board",
+  "tracking_notBoarded": "Not boarded yet",
+  "tracking_boardAt": "Board at",
+  "tracking_alightAt": "Get off at",
+  "tracking_stopsTitle": "Trip stops",
+  "tracking_yourStopBadge": "Your stop",
+  "tracking_yourDropoffBadge": "Your drop-off",
+  "tracking_stopNext": "Next",
+  "tracking_captain": "Captain",
+  "tracking_vehicle": "Vehicle",
+  "tracking_call": "Call",
+  "tracking_noRating": "No ratings yet",
+  "tracking_ratingWithCount": "{rating} ({count})",
+  "@tracking_ratingWithCount": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tracking_noPhone": "The captain's number isn't available",
+  "tracking_completedTitle": "You arrived safely",
+  "tracking_completedBody": "We hope the ride was comfortable.",
+  "tracking_rateTrip": "Rate this trip",
+  "tracking_alreadyReviewed": "Thanks — you've already rated this trip.",
+  "tracking_bookAgain": "Book another trip",
+  "tracking_mapUnavailableTitle": "Map data unavailable",
+  "tracking_mapUnavailableBody": "No route coordinates were found for this trip.",
+  "tracking_boardingTitle": "Have you boarded?",
+  "tracking_boardingBody": "The vehicle is at {station}. Confirm you are on board so the captain can continue.",
+  "@tracking_boardingBody": {
+    "placeholders": { "station": { "type": "String" } }
+  },
+  "tracking_boardingAction": "Yes, I'm on board",
+  "tracking_boardingWaitingTitle": "Waiting for the vehicle",
+  "tracking_boardingWaitingBody": "The confirm button appears once the vehicle reaches {station}.",
+  "@tracking_boardingWaitingBody": {
+    "placeholders": { "station": { "type": "String" } }
+  },
+  "tracking_boardedTitle": "Boarding confirmed",
+  "tracking_boardedBody": "You no longer need to follow the vehicle's location — enjoy the ride.",
+  "tracking_boardingPending": "{count, plural, =0{Everyone is on board} =1{Waiting for 1 passenger} other{Waiting for {count} passengers}}",
+  "@tracking_boardingPending": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "tracking_stationPassed": "Passed",
+  "tracking_stationHere": "Vehicle is here",
+  "tracking_etaMayChange": "Times may change with traffic",
+  "tracking_recenter": "Recenter",
+  "tracking_followVehicle": "Follow the vehicle",
+  "profile_title": "Profile",
+  "profile_memberSince": "Member since {date}",
+  "@profile_memberSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_guestName": "Your account",
+  "profile_noEmail": "No email added",
+  "profile_completeTitle": "Finish setting up your account",
+  "profile_completeBody": "Add your missing details so your captain and support can reach you.",
+  "profile_completeAction": "Complete now",
+  "profile_statTrips": "Trips taken",
+  "profile_statUpcoming": "Upcoming",
+  "profile_statPackage": "Package",
+  "profile_packageNone": "None",
+  "profile_packageActive": "Active",
+  "profile_packageExpiringSoon": "Your {name} package on {route} ends in {days} days.",
+  "@profile_packageExpiringSoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "route": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "profile_packageRenew": "Renew",
+  "profile_sectionAccount": "Account",
+  "profile_sectionPreferences": "Preferences",
+  "profile_sectionSupport": "Support",
+  "profile_sectionLegal": "Legal",
+  "profile_editProfile": "Personal details",
+  "profile_editProfileSubtitle": "Name, phone and email",
+  "profile_wallet": "My wallet",
+  "profile_walletSubtitle": "Your balance at each office",
+  "profile_subscription": "My package",
+  "profile_subscriptionSubtitle": "Plans, renewals and billing",
+  "profile_myTrips": "My trips",
+  "profile_myTripsSubtitle": "Upcoming, active and past trips",
+  "profile_language": "Language",
+  "profile_languageEnglish": "English",
+  "profile_languageArabic": "العربية",
+  "profile_selectLanguage": "Choose a language",
+  "profile_selectLanguageBody": "The app switches immediately, including the layout direction.",
+  "profile_theme": "Appearance",
+  "profile_themeSystem": "System",
+  "profile_themeLight": "Light",
+  "profile_themeDark": "Dark",
+  "profile_selectTheme": "Choose an appearance",
+  "profile_selectThemeBody": "System follows your device setting.",
+  "profile_themeLightBody": "Best in daylight",
+  "profile_themeDarkBody": "Easier on the eyes at night",
+  "profile_helpCenter": "Help centre",
+  "profile_helpCenterSubtitle": "FAQs, tickets and refunds",
+  "profile_terms": "Terms & conditions",
+  "profile_privacy": "Privacy policy",
+  "profile_lastUpdated": "Last updated {date}",
+  "@profile_lastUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_editTitle": "Personal details",
+  "profile_editBody": "Your captain uses these details to reach you about a trip.",
+  "profile_fieldName": "Full name",
+  "profile_fieldPhone": "Phone number",
+  "profile_fieldEmail": "Email address",
+  "profile_errorRequired": "This field is required",
+  "profile_errorNameTooShort": "Enter your full name",
+  "profile_errorInvalidPhone": "Enter a valid Egyptian mobile number",
+  "profile_errorInvalidEmail": "Enter a valid email address",
+  "profile_saved": "Your details were saved",
+  "profile_logout": "Log out",
+  "profile_logoutTitle": "Log out?",
+  "profile_logoutBody": "You'll need to sign in again to book or track a trip.",
+  "profile_logoutFailed": "We couldn't log you out. Please try again.",
+  "profile_refreshFailed": "We couldn't refresh your profile.",
+  "profile_signInRequiredTitle": "Sign in to view your profile",
+  "profile_signInRequiredBody": "You're browsing as a guest. Sign in to see your trips, packages and account details.",
+  "profile_signInCta": "Sign in",
+  "welcome_continueWithEmail": "Continue with Email",
+  "welcome_createAccount": "Create an account",
+  "welcome_continueAsGuest": "Continue as guest",
+  "welcome_heroTagline": "Smart, comfortable transport.\nBook, track, and ride — all in one place.",
+  "welcome_valueSeats": "Reserve seats",
+  "welcome_valueTracking": "Live bus tracking",
+  "welcome_valuePasses": "Manage passes",
+  "auth_termsAndConditions": "Terms & Conditions",
+  "welcome_languageName": "English",
+  "auth_signInHeroSubtitle": "Log in to track your trips, manage subscriptions, and follow buses in real time.",
+  "auth_signingIn": "Signing in...",
+  "auth_signInInfoCard": "All your trips and bookings in one place — log in and follow your day easily.",
+  "auth_signInSecurityNote": "Make sure to use the email associated with your account to access your bookings and subscriptions.",
+  "auth_signUpHeroSubtitle": "Register your details once and enjoy booking trips, tracking buses, and managing subscriptions easily.",
+  "auth_accountDetails": "Account Details",
+  "auth_loginDetails": "Login Details",
+  "auth_creatingAccount": "Creating Account...",
+  "auth_signUpTrustBanner": "Your data is secure and used only to manage your trips and bookings.",
+  "auth_signUpSecurityNote": "By clicking Create Account, a confirmation will be sent to your email.",
+  "auth_sendingLink": "Sending link...",
+  "auth_recoveryLinkFailed": "Failed to send recovery link",
+  "auth_resetInfoCard": "We will send a temporary link to your email. Open it soon to set a new password.",
+  "auth_recoveryLinkSent": "Recovery link sent",
+  "auth_openEmailToReset": "Open the email and tap the link to reset your password.",
+  "auth_emailHelp": "Didn't find the email? Check your spam folder or wait a bit before resending.",
+  "auth_forgotSecurityNote": "For your security, the system may prevent sending multiple links in a short period.",
+  "auth_help": "Help?",
+  "auth_resetPasswordTitle": "Set a new password",
+  "auth_resetPasswordSubtitle": "Choose a new password for your account.",
+  "auth_newPassword": "New Password",
+  "auth_confirmPassword": "Confirm Password",
+  "auth_passwordsDoNotMatch": "Passwords do not match",
+  "auth_updatePassword": "Update Password",
+  "auth_updatingPassword": "Updating...",
+  "auth_passwordUpdatedSnack": "Your password has been updated. Please sign in.",
+  "auth_resetPasswordFailed": "Failed to update password",
+  "auth_resetLinkInvalid": "This reset link is invalid or has expired. Please request a new one.",
+  "auth_verifyingResetLink": "Verifying your reset link...",
+  "auth_enterPhoneTitle": "Enter your phone number",
+  "auth_enterPhoneSubtitle": "We'll send a verification code to the number you enter.",
+  "auth_or": "or",
+  "auth_continue": "Continue",
+  "auth_verifyNumberTitle": "Verify number",
+  "auth_enterOtpTitle": "Enter the 6-digit code",
+  "auth_otpSentTo": "The code was sent by SMS to:\n{phone}",
+  "@auth_otpSentTo": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "auth_verify": "Verify",
+  "auth_didntReceiveCode": "Didn't receive the code?",
+  "auth_resendCountdown": "Resend ({seconds})",
+  "@auth_resendCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "auth_resendCode": "Resend code",
+  "auth_mustAcceptTerms": "You must accept the Terms & Conditions.",
+  "auth_completeProfileTitle": "Complete your profile",
+  "auth_welcomeToApp": "Welcome to BMT",
+  "auth_completeProfileSubtitle": "We need a few details to give you the best service.",
+  "auth_nameHint": "Ahmed Hassan",
+  "auth_nameRequired": "Name is required",
+  "auth_emailOptional": "Email (optional)",
+  "auth_gender": "Gender",
+  "auth_genderMale": "Male",
+  "auth_genderFemale": "Female",
+  "auth_acceptTermsCheckbox": "I agree to the Terms of Service and Privacy Policy.",
+  "auth_createAccountAndStart": "Create account and get started",
+  "auth_invalidPhoneShort": "Invalid number",
+  "splash_tagline": "Your journey, simplified.",
+  "home_brandTagline": "EasyWay Transport",
+  "common_today": "Today",
+  "common_date": "Date",
+  "common_time": "Time",
+  "common_seats": "Seats",
+  "common_soldOut": "Sold out",
+  "common_notSet": "Not set",
+  "common_notifications": "Notifications",
+  "common_support": "Support",
+  "common_manage": "Manage",
+  "common_pickup": "Pickup",
+  "common_destination": "Destination",
+  "common_dropOff": "Drop-off",
+  "nav_home": "Home",
+  "nav_routes": "Routes",
+  "nav_trips": "Trips",
+  "nav_profile": "Profile",
+  "home_myTrips": "My trips",
+  "home_greetingMorning": "Good morning",
+  "home_greetingAfternoon": "Good afternoon",
+  "home_greetingEvening": "Good evening",
+  "home_welcomeAboard": "Welcome aboard",
+  "home_popularDestinations": "POPULAR DESTINATIONS",
+  "home_searchRoutesTimesSeats": "Search routes, times and seats",
+  "home_expiresToday": "Expires today",
+  "home_trackYourBus": "Track your bus",
+  "home_yourBooking": "Your booking",
+  "home_yourBookings": "Your bookings",
+  "home_yourJourney": "Your journey",
+  "home_seatsYouHold": "Seats you hold, and where each one stands.",
+  "home_bookASeat": "Book a seat",
+  "home_nextDepartures": "Next departures",
+  "home_tripsOpenSoonest": "Trips open for booking, soonest first.",
+  "home_allRoutes": "All routes",
+  "home_yourPackage": "Your package",
+  "home_activeSubscription": "Active subscription",
+  "home_bookAnotherSeat": "Book another seat",
+  "home_bookSeat": "Book seat",
+  "home_fareNotPublished": "Fare not published yet",
+  "home_fareFrom": "FARE FROM",
+  "home_departureToBeSet": "Departure time to be set",
+  "home_boarding": "Boarding",
+  "home_rideTime": "Ride time",
+  "home_youBookedSeats": "You booked {seats} seats",
+  "@home_youBookedSeats": {
+    "placeholders": {
+      "seats": {
+        "type": "int"
+      }
+    }
+  },
+  "home_youBookedThis": "You booked this",
+  "home_pickupShort": "Pickup",
+  "home_stopNotSet": "Stop not set",
+  "home_noDepartures": "No departures scheduled",
+  "home_noDeparturesBody": "Nothing is open for booking right now. Browse the routes to see what runs and when.",
+  "home_browseRoutes": "Browse routes",
+  "home_travelWith": "Travel with",
+  "home_companies": "Transport companies",
+  "home_companiesSubtitle": "Pick an operator to see everything it runs.",
+  "home_departuresOpenCount": "{count, plural, =1{1 trip open for booking} other{{count} trips open for booking}}",
+  "@home_departuresOpenCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "home_searchTripTitle": "Search Trip",
+  "home_searchTripSubtitle": "Find your next commute in seconds",
+  "home_pickupLocation": "Pickup Location",
+  "home_selectPickupPoint": "Select pickup point",
+  "home_whereAreYouGoing": "Where are you going?",
+  "home_selectTime": "Select time",
+  "home_searchTrips": "Search Trips",
+  "home_heroHeadline": "Your next trip starts here",
+  "home_heroSubtitle": "Compare transport office trips, book your seat, and track your ride live.",
+  "common_from": "From",
+  "common_to": "To",
+  "home_departureStation": "Departure station",
+  "home_arrivalStation": "Arrival station",
+  "home_ongoingTrip": "Your trip is in progress",
+  "home_liveLocationBadge": "Live location",
+  "home_seatNumber": "Seat {seat}",
+  "home_offices": "Offices",
+  "home_discoverEyebrow": "Discover",
+  "home_featuredRoutesTitle": "Featured routes",
+  "home_featuredRoutesSubtitle": "Popular routes between cities, with the nearest available trip.",
+  "home_viaStations": "Via {stations}",
+  "home_seatsOnlyLeft": "Only {count} left",
+  "@home_seatsOnlyLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "home_seatsAvailable": "{count} available",
+  "@home_seatsAvailable": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "home_statusUnderReview": "Under review",
+  "home_statusConfirmed": "Confirmed",
+  "home_statusOnBoard": "On board",
+  "home_statusUnderReviewExplanation": "We are checking your payment. You will be notified as soon as your seat is confirmed.",
+  "home_statusConfirmedExplanation": "Your seat is held. Be at the pickup point 10 minutes before departure.",
+  "home_statusOnBoardExplanation": "You are on board. Have a good trip.",
+  "home_yourBookingFallback": "Your booking",
+  "home_amountPaid": "Paid",
+  "home_seatLabel": "Seat {label}",
+  "@home_seatLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "home_daysLeft": "{days} days left",
+  "@home_daysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "home_dayLeft": "1 day left",
+  "home_validUntil": "Valid until {date}",
+  "@home_validUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_searchHint": "Search {title}",
+  "@booking_searchHint": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_noPickupPointsAvailable": "No pickup points available yet. Please check back soon.",
+  "booking_noDestinationsAvailable": "No destinations available yet.",
+  "booking_noDepartureTimesAvailable": "No departure times available for this route yet.",
+  "map_livePreviewTitle": "Live route preview",
+  "map_livePreviewSubtitle": "Real-time vehicle position and route flow",
+  "notifications_markAllRead": "Mark all read",
+  "notifications_emptyTitle": "No notifications yet",
+  "notifications_emptyBody": "Trip updates, booking confirmations and reminders will appear here when they arrive.",
+  "notifications_categoryEmptyTitle": "Nothing in this category",
+  "notifications_categoryEmptyBody": "Pick another category to see the rest of your notifications.",
+  "notifications_newBadge": "New",
+  "notifications_categoryAll": "All",
+  "notifications_categoryBooking": "Booking",
+  "notifications_categoryPayment": "Payment",
+  "notifications_categoryTrip": "Trip",
+  "notifications_categoryNews": "News",
+  "notifications_categoryOffers": "Offers",
+  "notifications_categoryAlerts": "Alerts",
+  "trips_headerSubtitle": "Upcoming, active, and past commutes",
+  "trips_bookNewTripTooltip": "Book new trip",
+  "trips_filterUpcoming": "Upcoming",
+  "trips_filterActive": "Active",
+  "trips_filterCompleted": "Completed",
+  "trips_filterCancelled": "Cancelled",
+  "trips_sectionUpcoming": "Upcoming trips",
+  "trips_sectionActive": "In progress trips",
+  "trips_sectionCompleted": "Completed trips",
+  "trips_sectionCancelled": "Cancelled trips",
+  "trips_emptyUpcomingTitle": "No upcoming trips scheduled",
+  "trips_emptyUpcomingSubtitle": "Book a trip and it will show up here.",
+  "trips_emptyActiveTitle": "No trips in progress right now",
+  "trips_emptyActiveSubtitle": "Trips currently on the road will appear here.",
+  "trips_emptyCompletedTitle": "No completed trips yet",
+  "trips_emptyCompletedSubtitle": "Trips you finish will show up here.",
+  "trips_emptyCancelledTitle": "No cancelled trips",
+  "trips_emptyCancelledSubtitle": "Trips you cancel will show up here.",
+  "payments_checkoutTitle": "Checkout",
+  "payments_encrypted": "Encrypted",
+  "payments_fareSummary": "Fare summary",
+  "payments_ticketFare": "Ticket fare",
+  "payments_serviceFee": "Service fee",
+  "payments_tax": "Tax",
+  "payments_promoDiscount": "Promo discount",
+  "payments_total": "Total",
+  "payments_assuranceCardDetails": "Card details are entered on the bank's page, never stored by BMT.",
+  "payments_assuranceSeatHeld": "Your seat is held for you now and released only if the payment fails.",
+  "payments_assuranceTransferChecked": "Transfers are checked by our team, and you will be notified once confirmed.",
+  "payments_assuranceSupportReference": "Something looks wrong? Support can see this booking by its reference.",
+  "payments_bookingMissingItems": "This booking is missing {items}",
+  "@payments_bookingMissingItems": {
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_completeBeforePaying": "Go back and complete it before paying.",
+  "payments_goBack": "Go back",
+  "payments_howToPay": "How would you like to pay?",
+  "payments_balanceAmount": "Balance {amount}",
+  "@payments_balanceAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_shortByAmount": "Short by {amount} — top up or pick another method.",
+  "@payments_shortByAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_noMethodsAvailable": "No payment method is switched on right now. Your seat is still held — contact support and we will take it from there.",
+  "payments_nextStepCard": "You will finish on Paymob's encrypted card page.",
+  "payments_nextStepInstapay": "Transfer, then attach the receipt on the next step.",
+  "payments_nextStepBankTransfer": "Bank details come next — attach the receipt after you transfer.",
+  "payments_nextStepVodafoneCash": "Send from your wallet, then attach the receipt on the next step.",
+  "payments_nextStepWallet": "Deducted from your balance the moment you confirm.",
+  "payments_fastestBadge": "Fastest",
+  "payments_seatHeldWhilePaying": "Your seat is held while you pay.",
+  "payments_stepSeat": "Seat",
+  "payments_stepPayment": "Payment",
+  "payments_stepTicket": "Ticket",
+  "payments_havePromoCode": "Have a promo code?",
+  "payments_enterCodeHint": "Enter code",
+  "payments_promoCodeInvalid": "That code is not valid",
+  "payments_apply": "Apply",
+  "payments_promoApplied": "{code} applied — you save {amount}",
+  "@payments_promoApplied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_removePromoCode": "Remove promo code",
+  "payments_yourSeat": "Your seat",
+  "payments_seatNotSelected": "Seat not selected",
+  "payments_seatNumber": "Seat {seat}",
+  "@payments_seatNumber": {
+    "placeholders": {
+      "seat": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_vehicle": "Vehicle",
+  "payments_driver": "Driver",
+  "payments_directTrip": "Direct",
+  "booking_bookYourSeat": "Book your seat",
+  "booking_bookingFailed": "Booking Failed",
+  "booking_seatJustTaken": "This seat was just taken. Please go back and choose another seat.",
+  "booking_seatHoldExpired": "Your seat hold expired. Please select your seat again.",
+  "booking_duplicateActiveBooking": "You already have a pending booking for this trip. Please continue payment from your existing booking.",
+  "booking_openMyBookings": "Open My Bookings",
+  "booking_ok": "OK",
+  "booking_referenceNotCreated": "The booking reference was not created.",
+  "booking_cardPaymentUnavailable": "Card payment is not available right now.",
+  "booking_cardPaymentNotCompleted": "Card payment was not completed. Your booking remains pending.",
+  "booking_cardPaymentDeclined": "Your card was declined and you have not been charged. Your seat is still held — try another card or payment method.",
+  "booking_viewVehicleAndPhotos": "Vehicle & photos",
+  "booking_vehiclePhotosUnavailable": "No photos of this vehicle yet",
+  "booking_noRatingsYet": "Not rated yet",
+  "booking_ratingWithCount": "{rating} ({count})",
+  "@booking_ratingWithCount": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_vehicleCapacityLabel": "Capacity",
+  "booking_vehicleSeatsCount": "{count} seats",
+  "@booking_vehicleSeatsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_vehiclePlate": "Plate",
+  "booking_vehicleYear": "Year",
+  "booking_vehicleColor": "Colour",
+  "trips_statusInProgress": "In progress",
+  "trips_paymentPaid": "Paid",
+  "trips_paymentPending": "Pending",
+  "trips_paymentUnderReview": "Under Review",
+  "trips_paymentRefunded": "Refunded",
+  "trips_paymentFailed": "Failed",
+  "trips_driverBadgeAssigned": "Assigned",
+  "trips_driverBadgeEnRoute": "En route",
+  "trips_driverBadgeCompleted": "Trip complete",
+  "trips_driverBadgeCancelled": "Trip cancelled",
+  "trips_liveLoadingPosition": "Loading live position…",
+  "trips_livePositionUnavailable": "Live position unavailable right now.",
+  "trips_liveWaitingForVehicle": "Waiting for the vehicle's live position…",
+  "trips_liveRouteCoveredPercent": "{percent}% of the route covered",
+  "@trips_liveRouteCoveredPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "trips_liveTripInProgress": "Your trip is in progress",
+  "trips_liveTrackButton": "Track",
+  "payments_continueLabel": "Continue",
+  "payments_payNow": "Pay now",
+  "payments_missingBookingDetails": "Some booking details are missing.",
+  "payments_choosePaymentMethod": "Choose a payment method to continue.",
+  "payments_walletShortByAmount": "Your wallet is {amount} short of this fare.",
+  "@payments_walletShortByAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "support_minLengthHint": "Please add a bit more detail",
+  "support_refresh": "Refresh",
+  "support_centerTitle": "Support Center",
+  "support_categoryBooking": "Booking Issue",
+  "support_categoryPayment": "Payment Issue",
+  "support_categoryTripDelay": "Trip Delay",
+  "support_categoryDriverVehicle": "Driver or Vehicle Issue",
+  "support_categorySubscription": "Subscription Issue",
+  "support_categoryLostItem": "Lost Item",
+  "support_categoryOther": "Other",
+  "support_emptyTitle": "No tickets yet",
+  "support_emptyBody": "When you open a ticket it will appear here, along with its status and every reply from our team.",
+  "support_uploadPrompt": "Upload image or document",
+  "support_uploadHint": "JPG, PNG, or PDF up to 5MB",
+  "support_removeAttachment": "Remove attachment",
+  "support_myTickets": "My tickets",
+  "support_statusSubmitted": "Submitted",
+  "support_statusUnderReview": "Under Review",
+  "support_statusContacted": "Contacted",
+  "support_statusResolved": "Resolved",
+  "support_statusClosed": "Closed",
+  "support_statusRejected": "Rejected",
+  "support_timelineEmpty": "No timeline events available.",
+  "support_heroTitle": "How can we help?",
+  "support_heroBody": "Tell us what went wrong and our team will follow up on your ticket. We usually reply within a few hours.",
+  "support_createTicket": "Create a ticket",
+  "support_topicLabel": "What is this about?",
+  "support_topicHint": "Pick the topic closest to your issue.",
+  "support_officeLabel": "Which office is this about?",
+  "support_officeHint": "Pick the office your complaint concerns so it reaches their team.",
+  "support_officePlaceholder": "Select an office",
+  "support_officeRequired": "Please choose an office",
+  "support_officeLoadError": "Couldn't load offices.",
+  "support_officeFromBookingHint": "Set by the booking you linked — the ticket goes to the office that operated that trip.",
+  "support_attachmentOpenFailed": "Couldn't open attachment.",
+  "support_subjectLabel": "Subject",
+  "support_subjectHint": "A short summary of the problem.",
+  "support_subjectPlaceholder": "e.g. Charged twice for one booking",
+  "support_subjectRequired": "Subject is required",
+  "support_detailsLabel": "Details",
+  "support_detailsHint": "What happened, and when? Add your trip or booking reference if you have it.",
+  "support_detailsPlaceholder": "Describe the issue…",
+  "support_detailsRequired": "Details are required",
+  "support_relatedBookingLabel": "Related booking",
+  "support_relatedBookingHint": "Optional — pick the booking this is about so it reaches the right office.",
+  "support_relatedBookingNone": "Not about a specific booking",
+  "support_attachmentLabel": "Attachment",
+  "support_attachmentHint": "Optional — a screenshot or receipt helps us a lot.",
+  "support_submitting": "Submitting…",
+  "support_submitTicket": "Submit ticket",
+  "support_newTicketTitle": "New ticket",
+  "support_ticketCreatedSnack": "Ticket created. Our team will get back to you shortly.",
+  "support_ticketCreatedAttachmentFailedSnack": "Ticket submitted, but the attachment failed to upload.",
+  "support_ticketNumberTitle": "Ticket {number}",
+  "@support_ticketNumberTitle": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "support_ticketDetailsTitle": "Ticket details",
+  "support_failedToLoad": "Failed to load ticket details",
+  "support_reviewingNotice": "Our customer service team is reviewing your ticket and may contact you shortly.",
+  "support_currentStatus": "Current Status",
+  "support_assignedTo": "Assigned to",
+  "support_description": "Description",
+  "support_customerServiceNote": "Customer Service Note",
+  "support_attachments": "Attachments",
+  "booking_tapToChoosePickupStation": "Tap to choose a pickup station",
+  "booking_noMappedPickupStations": "No mapped pickup stations are available",
+  "booking_tapToChooseDestination": "Tap to choose a destination",
+  "booking_noMappedDestinations": "No mapped destinations are available",
+  "booking_mapCouldNotBeLoaded": "Map could not be loaded",
+  "common_tomorrow": "Tomorrow",
+  "common_durationMinutes": "{minutes}m",
+  "@common_durationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "common_durationHours": "{hours}h",
+  "@common_durationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "common_durationHoursMinutes": "{hours}h {minutes}m",
+  "@common_durationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "seatSelection_selectYourSeat": "Select Your Seat",
+  "seatSelection_seatsFreeCount": "{count} free",
+  "@seatSelection_seatsFreeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seatSelection_chooseASeat": "Choose a seat",
+  "seatSelection_tapSeatToContinue": "Tap an available seat to continue",
+  "seatSelection_seatsOpenCount": "{count} open",
+  "@seatSelection_seatsOpenCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seatSelection_microbusCapacity": "15-seat microbus",
+  "seatSelection_frontOfVehicle": "FRONT OF VEHICLE",
+  "seatSelection_cabinLayout": "Cabin layout",
+  "seatSelection_cabinDoor": "Door",
+  "seatSelection_cabinRear": "REAR",
+  "seatSelection_driverCabinNote": "Seats 1 and 2 are reserved for the driver cabin",
+  "seatSelection_driverCabinLabel": "Driver Cabin",
+  "seatSelection_selectSeatToContinue": "Select one seat to continue",
+  "seatSelection_tapAvailableSeatHint": "Tap one available seat on the layout above.",
+  "seatSelection_seatSelectedTitle": "Seat {seatNum} selected",
+  "@seatSelection_seatSelectedTitle": {
+    "placeholders": {
+      "seatNum": {
+        "type": "String"
+      }
+    }
+  },
+  "seatSelection_seatSummaryLine": "1 seat · EGP {price} each · Total EGP {total}",
+  "@seatSelection_seatSummaryLine": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "seatSelection_hintCardBody": "Middle rows use a pair on the left and a single seat on the right for a more realistic shuttle layout.",
+  "seatSelection_departsAt": "Departs {time}",
+  "@seatSelection_departsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "seatSelection_selectedSeatLabel": "Selected seat",
+  "seatSelection_seatNumbersLabel": "Seat numbers",
+  "seatSelection_perSeatLabel": "Per seat",
+  "seatSelection_reservingSeat": "Reserving seat...",
+  "seatSelection_continueBooking": "Continue Booking",
+  "seatSelection_selectASeat": "Select a Seat",
+  "seatSelection_seatCountSelected": "{count} seat selected",
+  "@seatSelection_seatCountSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seatSelection_passengerInformation": "Passenger information",
+  "seatSelection_contactDetails": "Contact details",
+  "seatSelection_passengerNameLabel": "Passenger name",
+  "seatSelection_fullNameHint": "Full name as on ID",
+  "seatSelection_passengerPhoneLabel": "Passenger phone number",
+  "seatSelection_phoneHint": "+20 10 1234 5678",
+  "seatSelection_phoneUsageNote": "We will use this number for trip updates.",
+  "seatSelection_saveDetails": "Save details",
+  "seatSelection_bookingSummaryTitle": "Booking summary",
+  "seatSelection_pricePerSeatLabel": "Price per seat",
+  "seatSelection_totalAmountLabel": "Total amount",
+  "seatSelection_seatLegendTitle": "Seat legend",
+  "seatSelection_seatStatusSelected": "Selected",
+  "seatSelection_seatStatusReserved": "Reserved",
+  "seatSelection_passengersTitle": "Passengers",
+  "seatSelection_oneSeatBadge": "1 seat",
+  "seatSelection_addPassengerHint": "Select another seat to add a passenger (UI preview)",
+  "seatSelection_awaitingSeatSelection": "Awaiting seat selection",
+  "seatSelection_passengerIndexLabel": "Passenger {index}",
+  "@seatSelection_passengerIndexLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "seatSelection_seatsLeftLabel": "seats left",
+  "seatSelection_acStatusLabel": "A/C · {status}",
+  "@seatSelection_acStatusLabel": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "seatSelection_lockErrorSeatUnavailable": "Seat is no longer available. Please choose another seat.",
+  "payments_stepFintechConnection": "Establishing secure fintech connection...",
+  "payments_stepVerifyingAccount": "Verifying account status and limit...",
+  "payments_stepReservingSeat": "Reserving seat and finalising ticket metadata...",
+  "payments_pendingLabel": "Pending",
+  "payments_methodLabel": "Method:",
+  "payments_transactionIdLabel": "Transaction ID:",
+  "payments_driverSeatSummary": "Driver: {driver} • Seat: {seat}",
+  "@payments_driverSeatSummary": {
+    "placeholders": {
+      "driver": {
+        "type": "String"
+      },
+      "seat": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_processingPaymentTitle": "Processing Payment",
+  "payments_doNotCloseScreen": "Please do not close this screen or press back button.",
+  "payments_secureCheckoutTitle": "Secure Checkout",
+  "payments_paymobCheckoutOpened": "Paymob Checkout Opened",
+  "payments_paymentSubmitted": "Payment Submitted",
+  "payments_completeCardPaymentPaymob": "Complete card payment in the secure Paymob page.",
+  "payments_receiptSentForReview": "Your receipt was sent for operations review.",
+  "payments_bookingRefLabel": "Booking Ref:",
+  "payments_paidAmountLabel": "Paid Amount:",
+  "payments_paymentMethodLabel": "Payment Method:",
+  "payments_viewTicket": "View Ticket",
+  "payments_backToHome": "Back to Home",
+  "payments_paymentFailedTitle": "Payment Failed",
+  "payments_transactionNotProcessed": "Your transaction could not be processed.",
+  "payments_reasonForFailure": "Reason for Failure",
+  "payments_paymentNotCompleted": "Payment could not be completed.",
+  "payments_retryPayment": "Retry Payment",
+  "payments_contactSupport": "Contact Support",
+  "payments_contactCustomerSupportTitle": "Contact Customer Support",
+  "payments_supportDialogBody": "Our customer support agents are ready to assist you. Reference ticket number: {ticketNumber}",
+  "@payments_supportDialogBody": {
+    "placeholders": {
+      "ticketNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_close": "Close",
+  "trips_newCaptain": "New captain",
+  "trips_ratingsCount": "{count, plural, =1{1 rating} other{{count} ratings}}",
+  "@trips_ratingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "trips_verifiedCaptain": "Verified captain",
+  "trips_factDeparts": "Departs",
+  "trips_factSeat": "Seat",
+  "trips_seatNotAssigned": "Not assigned",
+  "trips_completedAt": "Completed {date}",
+  "@trips_completedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_boardingPassTitle": "Boarding pass",
+  "trips_boardingOnBoard": "On board",
+  "trips_boardingReady": "Ready",
+  "trips_bookingRefLabel": "Booking ref",
+  "trips_boardingOnBoardNote": "Enjoy your ride — the captain has your seat on the manifest.",
+  "trips_boardingReadyNote": "Show this reference to the captain when you board.",
+  "trips_detailsTitle": "Trip details",
+  "trips_cancellationReasonTitle": "Cancellation Reason",
+  "trips_completedRatedNote": "You rated this trip. Tap to see the review you left.",
+  "trips_completedRateInvite": "Help us improve by rating your trip with {driverName}.",
+  "@trips_completedRateInvite": {
+    "placeholders": {
+      "driverName": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_actionChat": "Chat",
+  "trips_driverPhoneUnavailable": "Driver phone number is not available.",
+  "trips_callFailed": "Could not start a call to {phone}.",
+  "@trips_callFailed": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_seatLegendYours": "Your seat",
+  "trips_seatLegendAvailable": "Available",
+  "trips_seatLegendTaken": "Taken",
+  "trips_seatMapDriverLabel": "Driver",
+  "trips_yourSeatsPlural": "Your seats",
+  "trips_seatPending": "Seat pending",
+  "trips_driverPending": "Driver Pending",
+  "trips_vehiclePending": "Vehicle Pending",
+  "trips_routePointUnknown": "Unknown",
+  "trips_awaitingConfirmation": "Awaiting confirmation",
+  "trips_seatsAvailableOfTotal": "{available} of {total}",
+  "@trips_seatsAvailableOfTotal": {
+    "placeholders": {
+      "available": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "trips_seatsFreeLabel": "seats free",
+  "trips_viewFullSeatMap": "View full seat map",
+  "trips_seatPendingAssignment": "A seat will be assigned once your booking is confirmed.",
+  "trips_vehicleCode": "Vehicle code: {code}",
+  "@trips_vehicleCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_trackVehicleButton": "Track Vehicle",
+  "trips_cancellingInFlight": "Cancelling…",
+  "trips_cancelTripButton": "Cancel Trip",
+  "trips_captainSubtitleFinished": "Who drove you",
+  "trips_captainSubtitleActive": "Who is driving you",
+  "trips_vehicleSubtitle": "The bus on this trip",
+  "trips_seatsSubtitle": "Your seats on the cabin map",
+  "trips_paymentSubtitle": "Status and fare breakdown",
+  "trips_totalPaid": "Total paid",
+  "trips_totalDue": "Total due",
+  "trips_vehiclePhotosCount": "{count} photos",
+  "@trips_vehiclePhotosCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "trips_crewSubtitle": "Who is driving, and which bus",
+  "trips_vehicleNumberLabel": "Vehicle number",
+  "trips_vehicleTitle": "Your bus",
+  "trips_stationsSubtitle": "Every stop, in departure order",
+  "trips_stationsShowAll": "Show all {count} stops",
+  "@trips_stationsShowAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "trips_stationsShowLess": "Show fewer",
+  "trips_stationsOffLegNote": "Stops outside your leg are shown faded — they are why the trip takes as long as it does.",
+  "trips_paymentNotePaid": "Your payment is confirmed.",
+  "trips_paymentNotePending": "Waiting for your payment.",
+  "trips_paymentNoteUnderReview": "Our team is reviewing your payment.",
+  "trips_paymentNoteRefunded": "This fare was refunded to you.",
+  "trips_paymentNoteFailed": "The payment did not go through.",
+  "trips_paymentNoteCancelled": "This booking was cancelled.",
+  "trips_discountLabel": "Discount",
+  "trips_seatMapTitle": "Seat map",
+  "trips_seatMapTitleWithVehicle": "Seat map · {vehicle}",
+  "@trips_seatMapTitleWithVehicle": {
+    "placeholders": {
+      "vehicle": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_cancelSuccessMessage": "Trip {reference} was cancelled and your seat is available again.",
+  "@trips_cancelSuccessMessage": {
+    "placeholders": {
+      "reference": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_hubTitle": "Seat Release Hub",
+  "seatRelease_formTitle": "Release Reserved Seat",
+  "seatRelease_successTitle": "Seat Released Successfully",
+  "seatRelease_detailsTitle": "Release Record Details",
+  "seatRelease_compensationTitle": "Compensation Tracking",
+  "seatRelease_historyTitle": "Seat Release Logs",
+  "seatRelease_notificationsTitle": "Alerts Notifications",
+  "seatRelease_achievementsTitle": "Milestones & Achievements",
+  "seatRelease_portalTitle": "Seat Release Portal",
+  "seatRelease_notifCompensationAddedTitle": "Compensation Added",
+  "seatRelease_notifCompensationAddedBody": "Your released seat on Jun 2 was rebooked. EGP 50 cashback credited to your wallet!",
+  "seatRelease_timeYesterday": "Yesterday",
+  "seatRelease_notifRebookedTitle": "Seat Rebooked Successfully",
+  "seatRelease_notifRebookedBody": "A passenger has booked your released seat for the trip on Jun 2.",
+  "seatRelease_timeDaysAgo": "{count} days ago",
+  "@seatRelease_timeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seatRelease_notifReleasedTitle": "Seat Released Successfully",
+  "seatRelease_notifReleasedBody": "You successfully released your seat (Seat {seat}) for the {date} trip.",
+  "@seatRelease_notifReleasedBody": {
+    "placeholders": {
+      "seat": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_tripDateLabel": "Trip Date",
+  "seatRelease_seatNumberLabel": "Seat Number",
+  "seatRelease_actionUnavailable": "Seat release isn't available yet",
+  "seatRelease_statusWaiting": "Waiting",
+  "seatRelease_statusRebooked": "Rebooked",
+  "seatRelease_statusRewarded": "Rewarded",
+  "seatRelease_statusClosed": "Closed",
+  "seatRelease_filterAll": "All",
+  "seatRelease_timelineStepReleased": "Seat Released",
+  "seatRelease_timelineStepWaiting": "Waiting For Rebooking",
+  "seatRelease_timelineStepRebooked": "Rebooked Successfully",
+  "seatRelease_timelineReleasedDesc": "Your seat has been released for commute pools.",
+  "seatRelease_timelineWaitingDesc": "Seat is currently listed. Waiting for other daily passenger bookings.",
+  "seatRelease_timelineRebookedDesc": "Seat was successfully rebooked by another commuter.",
+  "seatRelease_timelineRewardedDesc": "Compensation reward credited directly to your wallet account.",
+  "seatRelease_upcomingReservedSeatsTitle": "Upcoming Reserved Seats",
+  "seatRelease_noUpcomingTripsMessage": "No upcoming package trips\nAll upcoming seats are active, or no remaining days remain.",
+  "seatRelease_validityRangeLabel": "VALIDITY RANGE",
+  "seatRelease_seatNoLabel": "SEAT NO.",
+  "seatRelease_statRemainingDays": "Remaining Days",
+  "seatRelease_statReleasedSeats": "Released Seats",
+  "seatRelease_statRebookedSeats": "Rebooked Seats",
+  "seatRelease_statEarnedReward": "Earned Reward",
+  "seatRelease_daysCount": "{days} Days",
+  "@seatRelease_daysCount": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "seatRelease_egpAmount": "EGP {amount}",
+  "@seatRelease_egpAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_quickLinkReleaseLogs": "Release Logs",
+  "seatRelease_quickLinkRewardsStats": "Rewards & Stats",
+  "seatRelease_viewLogsButton": "View Logs",
+  "seatRelease_releaseSeatButton": "Release Seat",
+  "seatRelease_noPastRecordSnackbar": "No past release record exists for this date.",
+  "seatRelease_reasonSectionTitle": "Reason for Releasing Seat",
+  "seatRelease_optionalNotesTitle": "Optional Notes",
+  "seatRelease_notesHint": "E.g., Working from home on Thursday...",
+  "seatRelease_whyReleaseTitle": "Why release your seat?",
+  "seatRelease_releasingTemporaryTitle": "Releasing is Temporary",
+  "seatRelease_releasingTemporaryBody": "You are releasing your reserved seat for this trip date only. Your package subscription remains active and future trip bookings return automatically.",
+  "seatRelease_thresholdTitle": "12-Hour Threshold Requirement",
+  "seatRelease_thresholdBody": "Seat release is only available if submitted at least 12 hours before trip departure. Late requests will not be accepted.",
+  "seatRelease_reasonPersonalPlans": "Personal plans",
+  "seatRelease_reasonWorkFromHome": "Working from home",
+  "seatRelease_reasonVacation": "Vacation",
+  "seatRelease_reasonAlternativeTransport": "Alternative transport",
+  "seatRelease_reasonMedical": "Medical reason",
+  "seatRelease_reasonOther": "Other",
+  "seatRelease_benefitCommunityTitle": "Help the Community",
+  "seatRelease_benefitCommunityBody": "Released seats become available for other passengers needing daily rides.",
+  "seatRelease_benefitCompensationTitle": "Earn Compensation",
+  "seatRelease_benefitCompensationBody": "Receive wallet cashback or loyalty rewards if another commuter books your seat.",
+  "seatRelease_benefitOptimizeTitle": "Optimize Route Utilization",
+  "seatRelease_benefitOptimizeBody": "Helps BMT optimize fleet load and reduce carbon emissions.",
+  "seatRelease_successHeadline": "Seat Released Successfully!",
+  "seatRelease_referenceCodeLabel": "Reference Code: {code}",
+  "@seatRelease_referenceCodeLabel": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_releasedDateLabel": "Released Date",
+  "seatRelease_commuteSegmentLabel": "Commute Segment",
+  "seatRelease_packageSourceLabel": "Package Source",
+  "seatRelease_autoNotifyBody": "We will automatically notify you and credit rewards to your wallet once your seat gets rebooked by other commuters.",
+  "seatRelease_viewReleaseDetailsButton": "View Release Details",
+  "seatRelease_returnToDashboardButton": "Return to Dashboard",
+  "seatRelease_idLabel": "ID: {id}",
+  "@seatRelease_idLabel": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_releasedSeatLabel": "Released Seat",
+  "seatRelease_reasonChosenLabel": "Reason Chosen",
+  "seatRelease_submitDateLabel": "Submit Date",
+  "seatRelease_notesLabel": "Notes",
+  "seatRelease_statusTimelineTitle": "Release Status Timeline",
+  "seatRelease_backToDashboardButton": "Back to Dashboard",
+  "seatRelease_referenceLabel": "Reference: {code}",
+  "@seatRelease_referenceLabel": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_compensationStatusLabel": "Compensation status",
+  "seatRelease_compWaitingBody": "Your seat is listed for daily commuters. If another passenger books this seat prior to departure, you will unlock your reward instantly.",
+  "seatRelease_compRebookedBody": "Your seat was successfully purchased. We are currently processing your compensation points clearance.",
+  "seatRelease_compensationCreditedLabel": "COMPENSATION CREDITED",
+  "seatRelease_creditedToWalletLabel": "Credited to Account Wallet",
+  "seatRelease_clearingDateLabel": "Clearing date: {date}",
+  "@seatRelease_clearingDateLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_transactionClearedLabel": "Transaction Cleared Successfully",
+  "seatRelease_historySearchHint": "Search release logs by date, route...",
+  "seatRelease_noHistoryRecordsMessage": "No release records found\nTry adjusting your filters or search query.",
+  "seatRelease_alertHistoryLogTitle": "Alert History Log",
+  "seatRelease_clearAllButton": "Clear All",
+  "seatRelease_noNotificationsMessage": "No new notifications\nYou are completely caught up.",
+  "seatRelease_achievementsHeaderTitle": "Seat Release Achievements",
+  "seatRelease_tileSeatsReleased": "Seats Released",
+  "seatRelease_tileRebookedSuccessfully": "Rebooked Successfully",
+  "seatRelease_tileRewardsEarned": "Rewards Earned",
+  "seatRelease_unlockableBadgesTitle": "Unlockable Badges",
+  "seatRelease_badgeEcoTitle": "Eco Commuter Tier I",
+  "seatRelease_badgeEcoSubtitle": "Release 5 seats to reduce shuttle overhead fuel.",
+  "seatRelease_badgeProgressReleased": "{count}/5 Released",
+  "@seatRelease_badgeProgressReleased": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seatRelease_badgeCommunityTitle": "Community Helper Gold",
+  "seatRelease_badgeCommunitySubtitle": "Help 3 other commuters find seats.",
+  "seatRelease_badgeProgressRebooked": "{count}/3 Rebooked",
+  "@seatRelease_badgeProgressRebooked": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seatRelease_badgeRewardTitle": "Reward Collector Level 2",
+  "seatRelease_badgeRewardSubtitle": "Accumulate EGP 200 in released rewards.",
+  "seatRelease_badgeProgressReward": "EGP {amount}/EGP 200",
+  "@seatRelease_badgeProgressReward": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "seatRelease_packageStatusActive": "Active",
+  "seatRelease_packageStatusNone": "No subscription",
+  "seatRelease_packageTypeSubscription": "Subscription package",
+  "booking_routeDetails": "Route details",
+  "booking_allStopsCount": "All Stops ({count})",
+  "@booking_allStopsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_departure": "Departure",
+  "booking_routeSummary": "Route Summary",
+  "booking_seatsAvailableCount": "{count} seats available",
+  "@booking_seatsAvailableCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_selectSeat": "Select Seat",
+  "booking_unableToLoadVehicleDetails": "Unable to load vehicle details",
+  "booking_vehicleNotFound": "Vehicle not found",
+  "payments_attachReceiptTitle": "Attach Receipt",
+  "payments_uploadReceiptError": "Unable to upload receipt: {error}",
+  "@payments_uploadReceiptError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_transferInstructionsTitle": "Transfer Instructions",
+  "payments_transferInstructionsBody": "Transfer the exact booking amount to the address below and upload the transaction screenshot.",
+  "payments_amountToSendLabel": "Amount to send:",
+  "payments_instapayIpaLabel": "InstaPay IPA:",
+  "payments_notConfigured": "Not configured",
+  "payments_accountHolderLabel": "Account Holder:",
+  "payments_mobileWalletNoLabel": "Mobile Wallet No:",
+  "payments_walletTypeLabel": "Wallet Type:",
+  "payments_defaultWalletChannels": "Vodafone / Orange / Etisalat / WE",
+  "payments_copiedToClipboard": "{value} copied to clipboard",
+  "@payments_copiedToClipboard": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_uploadReceiptScreenshot": "Upload Receipt Screenshot",
+  "payments_tapToSelectFile": "Tap to select a file (PNG, JPG)",
+  "payments_receiptAttachedTitle": "Receipt Attached",
+  "payments_receiptAttachedBody": "Submit payment to reserve your selected seat and send the receipt for verification.",
+  "payments_uploading": "Uploading...",
+  "payments_submitPayment": "Submit Payment",
+  "booking_chooseTripAndVehicle": "Choose trip and vehicle",
+  "booking_availableTripsLabel": "Available trips",
+  "booking_tripOptionsWithVehicles": "{count} trip options with assigned vehicles",
+  "@booking_tripOptionsWithVehicles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_sortEarliest": "Earliest",
+  "booking_sortLowestPrice": "Lowest price",
+  "booking_sortMostSeats": "Most seats",
+  "payments_closeCheckoutTooltip": "Close checkout",
+  "payments_paymobCheckoutTitle": "Paymob Checkout",
+  "payments_reloadTooltip": "Reload",
+  "payments_unableToLoadCheckout": "Unable to load checkout",
+  "payments_bookingTitle": "Booking",
+  "payments_processingBookingTitle": "Processing your booking...",
+  "payments_processingBookingSubtitle": "This should only take a moment",
+  "payments_bookingConfirmedTitle": "Booking Confirmed",
+  "payments_bookingConfirmedSubtitle": "Your seat is reserved — confirmation below",
+  "payments_bookingReferenceLabel": "Booking Reference",
+  "payments_bookingReferencePending": "Reference pending",
+  "payments_departsLabel": "Departs",
+  "payments_vehicleNumberLabel": "Vehicle {vehicle}",
+  "@payments_vehicleNumberLabel": {
+    "placeholders": {
+      "vehicle": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_notesLabel": "Notes",
+  "payments_bookingNotesBody": "Please arrive 10 minutes before departure. Cancellation allowed up to 1 hour before departure.",
+  "payments_trackVehicle": "Track Vehicle",
+  "trips_notFoundTitle": "Trip not found",
+  "trips_notFoundBody": "This trip may have been removed or the link is no longer valid. Browse routes to plan your next ride.",
+  "trips_starRatingSemantic": "{star} of 5 for {title}",
+  "@trips_starRatingSemantic": {
+    "placeholders": {
+      "star": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "payments_viewFullTripStatus": "View Full Trip & Payment Status",
+  "payments_rejectedHelpText": "You can contact support for help or try booking another trip.",
+  "payments_pendingApprovalNotice": "You will receive a notification once your payment has been approved.",
+  "payments_bookingStatusLabel": "Booking Status",
+  "payments_reasonLabel": "Reason",
+  "payments_estimatedReviewTimeLabel": "Estimated Review Time",
+  "payments_estimatedReviewTimeValue": "5–15 Minutes",
+  "payments_paymentApprovedTitle": "Payment Approved",
+  "payments_paymentApprovedSubtitle": "Your payment was verified. Your seat is confirmed and ready to track.",
+  "payments_statusApproved": "Approved",
+  "payments_paymentRejectedTitle": "Payment Rejected",
+  "payments_paymentRejectedSubtitle": "We couldn't verify this payment. Contact support or try booking again.",
+  "payments_statusRejected": "Rejected",
+  "payments_paymentReceiptSubmittedTitle": "Payment Receipt Submitted",
+  "payments_paymentReceiptSubmittedSubtitle": "Your booking request has been received. Our finance team is reviewing your payment.",
+  "payments_statusPendingVerification": "Pending Verification",
+  "booking_from": "From",
+  "booking_to": "To",
+  "booking_seatsCountLabel": "{count} seats",
+  "@booking_seatsCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_routeStopsCount": "{count} route stops",
+  "@booking_routeStopsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_directTripNoStops": "Direct trip with no intermediate stops",
+  "booking_intermediateStopsCount": "{count} intermediate stops",
+  "@booking_intermediateStopsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_moreStopsCount": "+ {count} more stops",
+  "@booking_moreStopsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "loyalty_titlePortal": "Loyalty Portal",
+  "loyalty_titleLedger": "Points Ledger Logs",
+  "loyalty_titleCatalog": "Redeem Points Catalog",
+  "loyalty_titleHub": "Loyalty Hub",
+  "loyalty_refresh": "Refresh",
+  "loyalty_confirmRedemptionTitle": "Confirm Redemption",
+  "loyalty_confirmRedemptionBody": "Are you sure you want to redeem this reward?",
+  "loyalty_costPoints": "Cost: {points} points",
+  "@loyalty_costPoints": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "loyalty_currentBalance": "Current Balance:",
+  "loyalty_balanceAfterRedemption": "Balance After Redemption:",
+  "loyalty_redeemNow": "Redeem Now",
+  "loyalty_voucherUnlocked": "Voucher Unlocked! 🎫",
+  "loyalty_couponGeneratedBody": "Coupon code generated successfully. You can use it during payment checkout.",
+  "loyalty_copyAndClose": "Copy & Close",
+  "loyalty_voucherCopiedSnack": "Voucher code copied to clipboard!",
+  "loyalty_navRedeemTitle": "Redeem Points",
+  "loyalty_navRedeemSubtitle": "Browse Catalog",
+  "loyalty_navHistoryTitle": "Points History",
+  "loyalty_navHistorySubtitle": "Ledger Logs",
+  "loyalty_activeTierPerks": "Active {tier} Perks",
+  "@loyalty_activeTierPerks": {
+    "placeholders": {
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "loyalty_exploreMembership": "Explore Membership Levels",
+  "loyalty_tierMemberBadge": "{tier} member",
+  "@loyalty_tierMemberBadge": {
+    "placeholders": {
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "loyalty_megaLoyaltyBadge": "MEGA LOYALTY",
+  "loyalty_pointsBalanceLabel": "COMMUTE POINTS BALANCE",
+  "loyalty_ptsUnit": "pts",
+  "loyalty_nextGoalPlatinum": "Next Goal: Platinum Tier",
+  "loyalty_ptsToGo": "{points} pts to go",
+  "@loyalty_ptsToGo": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "loyalty_platinumFootnote": "* Platinum tier rewards earn double points on all travels.",
+  "loyalty_currentTier": "Current Tier",
+  "loyalty_needsPoints": "Needs {points}",
+  "@loyalty_needsPoints": {
+    "placeholders": {
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "loyalty_transactionLedger": "Points Transaction Ledger",
+  "loyalty_activeLogs": "Active logs",
+  "loyalty_redeemableBalance": "Redeemable points balance",
+  "loyalty_tierLevelMember": "{tier} Level Member",
+  "@loyalty_tierLevelMember": {
+    "placeholders": {
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "loyalty_catalogRewards": "Catalog Rewards",
+  "loyalty_tiersUnavailable": "Membership levels aren't available right now.",
+  "loyalty_historyEmptyTitle": "No points activity yet",
+  "loyalty_historyEmptyBody": "Book a trip to start earning points.",
+  "loyalty_rewardsEmptyTitle": "No rewards available",
+  "loyalty_rewardsEmptyBody": "Check back soon for new ways to spend your points.",
+  "loyalty_transactionFallbackTitle": "Points activity",
+  "loyalty_redeemFailed": "Redemption failed. {reason}",
+  "@loyalty_redeemFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "loyalty_categoryDiscount": "Discount",
+  "loyalty_categoryFreeRide": "FreeRide",
+  "loyalty_categoryCashback": "Cashback",
+  "loyalty_categoryPackage": "Package",
+  "loyalty_tierBronze": "Bronze",
+  "loyalty_tierSilver": "Silver",
+  "loyalty_tierGold": "Gold",
+  "loyalty_tierPlatinum": "Platinum",
+  "trips_cancelReasonTitle": "Cancellation reason",
+  "trips_cancelReasonTripRef": "Trip {reference}",
+  "@trips_cancelReasonTripRef": {
+    "placeholders": {
+      "reference": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_reasonScheduleChange": "Schedule change",
+  "trips_reasonAlternativeTransport": "Found alternative transport",
+  "trips_reasonDriverDelay": "Driver delay concern",
+  "trips_reasonPersonalEmergency": "Personal emergency",
+  "trips_reasonDuplicateBooking": "Duplicate booking",
+  "trips_cancelDialogTitle": "Cancel this trip?",
+  "trips_cancelDialogBody": "Your booking will be cancelled, your seat released back to the trip, and your payment will no longer be reviewed. This cannot be undone — you would have to book again.",
+  "trips_cancelReasonPrefix": "Reason: {reason}",
+  "@trips_cancelReasonPrefix": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_keepTrip": "Keep trip",
+  "trips_confirmCancellation": "Confirm cancellation",
+  "booking_resetAllFilters": "Reset all",
+  "booking_licensedCaptain": "Licensed captain",
+  "booking_eta": "ETA",
+  "booking_bookNow": "Book Now",
+  "booking_seatsLeftShort": "{count} left",
+  "@booking_seatsLeftShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seatRelease_mockTripDateJun2": "Jun 2",
+  "packages_refreshTooltip": "Refresh",
+  "packages_continueToPayment": "Continue to Payment",
+  "packages_daysCount": "{days} Days",
+  "@packages_daysCount": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "trips_reviewFormTitle": "Rate your trip",
+  "trips_ratingOffice": "Office rating",
+  "trips_ratingDriver": "Driver rating",
+  "trips_ratingVehicle": "Vehicle rating",
+  "trips_ratingRoute": "Route rating",
+  "trips_reviewCommentHint": "Share feedback (optional)",
+  "trips_reviewSubmitting": "Submitting…",
+  "trips_submitReviewButton": "Submit review",
+  "trips_reviewIncompleteHint": "Give the driver, vehicle, and route a star rating to continue.",
+  "trips_reviewThankYouTitle": "Thank you for your review",
+  "trips_reviewThankYouBody": "Your feedback on {reference} went straight to our operations team. Only they can see it.",
+  "@trips_reviewThankYouBody": {
+    "placeholders": {
+      "reference": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_reviewYourFeedbackLabel": "Your feedback",
+  "trips_reviewOpening": "Opening your review…",
+  "trips_reviewOpenError": "We could not open your review",
+  "trips_reviewErrorSignIn": "Please sign in to review your trip.",
+  "trips_reviewErrorBookingMissing": "This booking no longer exists.",
+  "trips_reviewErrorNotYourTrip": "You can only review your own trips.",
+  "trips_reviewErrorCancelled": "This booking was cancelled, so there is nothing to review.",
+  "trips_reviewErrorNotCompleted": "You can only review a trip once it has been completed.",
+  "trips_reviewErrorInvalidRating": "Please give the driver, vehicle, and route 1–5 stars.",
+  "trips_reviewErrorUnknown": "Could not submit your review. Please try again.",
+  "booking_price": "Price",
+  "booking_mapCoordinatesUnavailable": "Map coordinates unavailable",
+  "booking_saveDiscountPercent": "Save {percent}%",
+  "@booking_saveDiscountPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_bestValue": "BEST VALUE",
+  "booking_ridesValidForDays": "{rides} · valid {days}",
+  "@booking_ridesValidForDays": {
+    "placeholders": {
+      "rides": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_pricePerRide": "EGP {amount} per ride",
+  "@booking_pricePerRide": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_yourSelectedTrip": "Your selected trip",
+  "booking_startsWithYourTrip": "Starts with your trip",
+  "booking_couldNotLoadFares": "Could not load fares",
+  "booking_chooseTripTimeAndVehicle": "Choose trip time and vehicle",
+  "booking_viewRouteDetails": "View route details",
+  "booking_tripsCountToday": "{count} trips today",
+  "@booking_tripsCountToday": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_noTripsToday": "No trips today",
+  "referral_titleMain": "Referrals & Rewards",
+  "referral_titleInvite": "Invite Friends",
+  "referral_titleHistory": "Referral History",
+  "referral_titleWallet": "Rewards Wallet",
+  "referral_titleHub": "Referral Hub",
+  "referral_codeCopiedSnack": "Referral code copied to clipboard!",
+  "referral_refresh": "Refresh",
+  "referral_redemptionSuccessTitle": "Redemption Successful! 🎉",
+  "referral_redemptionSuccessBody": "Rewards have been converted and transferred directly to your Main Wallet Balance!",
+  "referral_successfullyTransferred": "Successfully Transferred",
+  "referral_awesome": "Awesome",
+  "referral_scratchSubtitle": "Scratch card to reveal your promotional reward code!",
+  "referral_claimReward": "Claim Reward",
+  "referral_scratchToReveal": "Scratch card to reveal",
+  "referral_scratchWithFinger": "Scratch with finger!",
+  "referral_rewardsUnavailable": "Rewards unavailable",
+  "referral_referralsCount": "{count} referrals",
+  "@referral_referralsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_milestoneFirst": "First Referral Milestone",
+  "referral_milestoneReached": "Milestone Reached!",
+  "referral_milestoneNext": "Next Referral Milestone",
+  "referral_milestoneDescFirst": "Invite {target} friends to unlock your first referral bonus.",
+  "@referral_milestoneDescFirst": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_milestoneDescReached": "Great work! You have reached the current milestone.",
+  "referral_milestoneDescNext": "Invite {remaining, plural, =1{1 more friend} other{{remaining} more friends}} to unlock your next reward.",
+  "@referral_milestoneDescNext": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_progressCount": "Progress: {current} / {target} referrals",
+  "@referral_progressCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_statTotalInvites": "Total Invites",
+  "referral_statSuccessful": "Successful",
+  "referral_statTotalEarned": "Total Earned",
+  "referral_yourCodeLabel": "Your Referral Code",
+  "referral_inviteFriendsNow": "Invite Friends Now",
+  "referral_walletSubtitle": "Scratch vouchers & redeem balances",
+  "referral_claimableBadge": "EGP {amount} Claimable",
+  "@referral_claimableBadge": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_logsHistoryTitle": "Referral Logs & History",
+  "referral_logsHistorySubtitle": "Track status of invites and code claims",
+  "referral_scanToJoin": "Scan to Join BMT",
+  "referral_qrHint": "Let friends scan this QR to automatically register with your code!",
+  "referral_close": "Close",
+  "referral_howItWorks": "How it works",
+  "referral_step1Title": "Share your code",
+  "referral_step1Subtitle": "Send your unique code to friends via any channel.",
+  "referral_step2Title": "Friend registers",
+  "referral_step2Subtitle": "They sign up and complete their first trip using your code.",
+  "referral_step3Title": "You both earn",
+  "referral_step3Subtitle": "You receive a referral reward credited to your wallet.",
+  "referral_directShareOptions": "Direct Share Options",
+  "referral_shareLink": "Share Link",
+  "referral_showQr": "Show QR",
+  "referral_copyCode": "Copy Code",
+  "referral_referralsLog": "Referrals Log",
+  "referral_totalReferralsCount": "{count} total referrals",
+  "@referral_totalReferralsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_invitedOn": "Invited: {date}",
+  "@referral_invitedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_statusRegistered": "Registered",
+  "referral_statusFirstOrderCompleted": "First Order Completed",
+  "referral_statusRewardGranted": "Reward Granted",
+  "referral_statusPendingRegistration": "Pending Registration",
+  "referral_egpTotal": "EGP {amount}",
+  "@referral_egpTotal": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_egpEarned": "+ EGP {amount}",
+  "@referral_egpEarned": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_egpZero": "EGP 0",
+  "referral_claimVouchersTitle": "Claim Reward Vouchers",
+  "referral_walletLabel": "Referral Wallet",
+  "referral_walletAvailable": "EGP {amount} available",
+  "@referral_walletAvailable": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_noBalanceYet": "No balance yet",
+  "referral_transferHint": "You can transfer this balance to your main wallet.",
+  "referral_earnBalanceHint": "Earn balance by inviting friends with your referral code.",
+  "referral_openWallet": "Open my wallet",
+  "referral_walletCreditHint": "Referral rewards are paid straight into your wallet at the office that granted them.",
+  "referral_redeemToWallet": "Redeem to Wallet",
+  "referral_noBalanceToRedeem": "No balance to redeem",
+  "referral_redeemFailed": "Redemption failed. Please try again.",
+  "referral_revealedCode": "Revealed Code: {code}",
+  "@referral_revealedCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_lockedScratchToReveal": "Locked - Scratch to reveal",
+  "referral_inviteCopiedSnack": "Invite copied to clipboard",
+  "referral_shareYourInvite": "Share your invite",
+  "referral_shareSheetSubtitle": "Invite friends with code {code} and earn rewards.",
+  "@referral_shareSheetSubtitle": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_channelWhatsapp": "WhatsApp",
+  "referral_channelFacebook": "Facebook",
+  "referral_channelMessenger": "Messenger",
+  "referral_channelInstagram": "Instagram",
+  "referral_copyLink": "Copy link",
+  "referral_more": "More",
+  "booking_filters": "Filters",
+  "booking_filtersCount": "Filters ({count})",
+  "@booking_filtersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_filtersActiveSemantics": "{label} active",
+  "@booking_filtersActiveSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_faresFrom": "Fares from",
+  "booking_chooseThisRoute": "Choose this route",
+  "booking_routeOverviewLabel": "ROUTE OVERVIEW",
+  "booking_finalStop": "Final stop",
+  "booking_findYourBestCommute": "Find your best commute",
+  "booking_searchRoutesWhenAvailable": "Search active routes when they become available.",
+  "booking_routesMatchSearch": "{visible} of {total} routes match your search",
+  "@booking_routesMatchSearch": {
+    "placeholders": {
+      "visible": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_searchDepartureDestinationHint": "Search departure, destination, or route name",
+  "booking_clearSearch": "Clear search",
+  "booking_full": "Full",
+  "booking_occupancy": "Occupancy",
+  "booking_percentFull": "{percent}% full",
+  "@booking_percentFull": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_availableBookedSeats": "{available} available · {booked} booked",
+  "@booking_availableBookedSeats": {
+    "placeholders": {
+      "available": {
+        "type": "int"
+      },
+      "booked": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_selectTripAndVehicle": "Select trip and vehicle",
+  "booking_seatsCapacity": "{count} seats capacity",
+  "@booking_seatsCapacity": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_stepStops": "Stops",
+  "booking_stepXOfY": "Step {step} of {total}",
+  "@booking_stepXOfY": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "communication_chatHubTitle": "Chat Hub",
+  "communication_refresh": "Refresh",
+  "communication_searchHint": "Search chats, contacts, messages...",
+  "communication_filterAll": "All",
+  "communication_filterDrivers": "Drivers",
+  "communication_filterSupport": "Support",
+  "communication_filterGroups": "Groups",
+  "communication_emptyTitle": "No conversations found",
+  "communication_emptySubtitle": "Filter or search in your active shuttle runs.",
+  "communication_categoryDriver": "Driver",
+  "communication_categorySupport": "Support",
+  "communication_categoryGroup": "Group",
+  "communication_statusOpenFallback": "Open",
+  "communication_messageInputHint": "Type your message...",
+  "communication_justNow": "Just now",
+  "booking_pickYourSeat": "Pick your seat",
+  "booking_frontSeatsNote": "Front seats are nearest to the driver.",
+  "booking_freeCount": "{count} free",
+  "@booking_freeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_yourSelectedSeat": "Your selected seat",
+  "booking_continueToPackages": "Continue to packages",
+  "booking_additionalVehicleSeats": "Additional vehicle seats",
+  "booking_couldNotLoadSeats": "Could not load seats",
+  "communication_messagesUnavailable": "Messages unavailable",
+  "communication_imagePreviewUnavailable": "Preview not available yet",
+  "booking_whereGetOnOff": "Where will you get on and off?",
+  "booking_setPickupAndDestination": "Set pickup and destination",
+  "booking_choosePickupThenStop": "Choose your pickup first, then a stop further along the route.",
+  "booking_stopsCountLabel": "{count} stops",
+  "@booking_stopsCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_selectYourPickupStop": "1  Select your pickup stop",
+  "booking_selectYourDropoffStop": "2  Now select your drop-off stop",
+  "booking_routeSegmentReady": "Route segment ready",
+  "booking_routeBeginsHere": "Route begins here",
+  "booking_finalDestination": "Final destination",
+  "booking_pickupDropoffPoint": "Pickup and drop-off point",
+  "booking_findAvailableTrips": "Find available trips",
+  "booking_reviewYourBooking": "Review your booking",
+  "booking_nothingChargedUntilPay": "Nothing is charged until you pay on the next step.",
+  "booking_proceedToPayment": "Proceed to payment",
+  "booking_seatHeldWhilePaying": "Your seat is locked in the moment you confirm and pay.",
+  "booking_chooseYourDeparture": "Choose your departure",
+  "booking_pickupToDropoff": "{pickup} to {dropoff}",
+  "@booking_pickupToDropoff": {
+    "placeholders": {
+      "pickup": {
+        "type": "String"
+      },
+      "dropoff": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_chooseASeat": "Choose a seat",
+  "booking_departsAtTime": "Departs {time}",
+  "@booking_departsAtTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_departsOnDayAtTime": "Departs {day} · {time}",
+  "@booking_departsOnDayAtTime": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_perRide": "per ride",
+  "booking_noTripsAvailable": "No trips available",
+  "booking_noTripsFoundForRoute": "No trips found for {route} today.",
+  "@booking_noTripsFoundForRoute": {
+    "placeholders": {
+      "route": {
+        "type": "String"
+      }
+    }
+  },
+  "offices_directoryTitle": "Transport offices",
+  "offices_directoryEmpty": "No offices are open for booking right now.",
+  "offices_searchHint": "Search by company or city",
+  "offices_noSearchResults": "No office matches \"{query}\"",
+  "@offices_noSearchResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "offices_clearSearch": "Clear search",
+  "offices_routesHeader": "Routes this office runs",
+  "offices_noRoutes": "This office has no bookable routes right now.",
+  "offices_departuresHeader": "Departures on sale",
+  "offices_noDepartures": "This office has no departures on sale right now.",
+  "offices_noRatingsYet": "No ratings yet",
+  "offices_ratingsCount": "{count, plural, =1{1 review} other{{count} reviews}}",
+  "@offices_ratingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routes_officesCardTitle": "Transport offices",
+  "routes_officesCardSubtitle": "Browse operators, compare ratings, and see the routes each one runs.",
+  "routes_heroSubtitle": "Search, compare, and book your commute",
+  "routes_searchDescription": "Enter pickup, destination, date and time to see available trips.",
+  "routes_step1Title": "Search",
+  "routes_step1Subtitle": "Pickup, destination, date & time",
+  "routes_step2Title": "Compare",
+  "routes_step2Subtitle": "Routes and vehicles",
+  "routes_step3Title": "Select seat",
+  "routes_step3Subtitle": "Choose your place on board",
+  "routes_step4Title": "Pay",
+  "routes_step4Subtitle": "Secure checkout",
+  "routes_howItWorks": "How it works",
+  "routes_browsePopularRoutes": "Browse popular routes",
+  "routes_tagFastDiscovery": "Fast discovery",
+  "routes_tagLiveAvailability": "Live availability",
+  "routes_tagPremiumRoutes": "Premium routes",
+  "routes_searchTripsButton": "Search trips",
+  "booking_routeTypeDirect": "Direct",
+  "booking_routeTypeMultiStop": "Multi-stop",
+  "booking_chooseBestDeparture": "Choose the departure that works best for you.",
+  "booking_noExactMatchCoversTrip": "No exact match for your search. These routes cover most of your trip.",
+  "booking_noRouteMatchClosest": "No route matches this exact trip yet. Here are the closest options we run.",
+  "booking_bestResultsForYou": "Best results for you",
+  "booking_otherMatchingRoutes": "Other matching routes",
+  "booking_noBookableTripsNow": "No bookable trips right now",
+  "booking_noScheduledTripsYet": "No scheduled trips yet",
+  "booking_routeHasPricingNoTrip": "This route has pricing, but no upcoming trip is open for booking.",
+  "booking_tripsFromDashboardAppear": "Trips created from the dashboard will appear here.",
+  "booking_noTripsMatchFilters": "No trips match your filters",
+  "booking_tryWideningFilterRange": "Try widening the price, seats, or time-of-day range.",
+  "booking_continueWithThisRoute": "Continue with this route",
+  "booking_dragToExpandDetails": "Drag to expand route details",
+  "booking_isThisRouteSuitable": "Is this route suitable?",
+  "booking_closestRoutesForSearch": "Closest routes for your search",
+  "booking_editStops": "Edit stops",
+  "booking_stationsLabel": "Stations",
+  "booking_pickTripNextStep": "You'll choose your trip and seat in the next steps.",
+  "booking_noBookableRouteFound": "No bookable route found",
+  "booking_tryDifferentDepartureDest": "Try a different departure, destination, or travel time.",
+  "booking_distance": "Distance",
+  "booking_startingPrice": "Starting price",
+  "booking_priceRange": "Price range",
+  "booking_stopsNotPublishedYet": "Stops are not published yet",
+  "booking_routeStationsWillAppear": "Route stations will appear here once available.",
+  "booking_stopArrivalAt": "Arrives {time}",
+  "@booking_stopArrivalAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_stopDepartureAt": "Departs {time}",
+  "@booking_stopDepartureAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_stopAfterDeparture": "{duration} after departure",
+  "@booking_stopAfterDeparture": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_estimatedTimesFromDeparture": "Estimated times for the {time} departure — traffic can shift them.",
+  "@booking_estimatedTimesFromDeparture": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_estimatedTimesNote": "Station times are estimated from the start of the trip — traffic can shift them.",
+  "booking_openInMaps": "Open in maps",
+  "booking_mapsAppUnavailable": "Couldn't open a maps app on this device.",
+  "booking_routeMapTitle": "Route map",
+  "booking_routeTimeline": "Route timeline",
+  "booking_whereGetOnOffShort": "Where you can get on and off",
+  "booking_oneStop": "1 stop",
+  "booking_stopCapabilityBoardAlight": "Pickup & drop-off",
+  "booking_stopCapabilityBoardOnly": "Pickup only",
+  "booking_stopCapabilityAlightOnly": "Drop-off only",
+  "booking_stopCapabilityPassThrough": "Pass-through",
+  "booking_stopStart": "Start",
+  "booking_stopEnd": "End",
+  "booking_filterTrips": "Filter trips",
+  "booking_filterVehicleType": "Vehicle type",
+  "booking_filterTimeOfDay": "Time of day",
+  "booking_filterAny": "Any",
+  "booking_filterSortBy": "Sort by",
+  "booking_dayPartMorning": "Morning",
+  "booking_dayPartAfternoon": "Afternoon",
+  "booking_dayPartEvening": "Evening",
+  "booking_tripSortEarliestDeparture": "Earliest departure",
+  "booking_needAChange": "Need a change?",
+  "booking_fare": "Fare",
+  "booking_fareBreakdown": "Fare breakdown",
+  "booking_ridesStartsOn": "{rides} · starts {date}",
+  "@booking_ridesStartsOn": {
+    "placeholders": {
+      "rides": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_worksOutTo": "Works out to",
+  "booking_youSave": "You save",
+  "booking_vsSingleTickets": "vs. {count} single tickets",
+  "@booking_vsSingleTickets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_totalDue": "Total due",
+  "booking_yourTicket": "Your ticket",
+  "booking_ridesLabel": "Rides",
+  "booking_oneRide": "1 ride",
+  "booking_receiptTooLarge": "Receipts must be 8 MB or smaller.",
+  "booking_receiptUnreadable": "That file could not be read. Try another one.",
+  "booking_someDetailsAreMissing": "Some booking details are missing.",
+  "booking_choosePaymentMethodToContinue": "Choose a payment method to continue.",
+  "booking_receiptStillUploading": "Your receipt is still uploading.",
+  "booking_attachReceiptToContinue": "Attach your transfer receipt to continue.",
+  "booking_submitReceipt": "Submit receipt",
+  "booking_couldNotLoadPaymentMethods": "We could not load the ways to pay. Your seat is still yours — try again.",
+  "booking_proofOfTransfer": "Proof of transfer",
+  "booking_receiptAttachedNote": "Attached. Our team will check it against your transfer.",
+  "booking_receiptHintUpTo8mb": "A screenshot or PDF of the transfer — up to 8 MB.",
+  "booking_uploadingEllipsis": "Uploading…",
+  "booking_replaceReceipt": "Replace receipt",
+  "booking_attachReceipt": "Attach receipt",
+  "booking_sendMethodTo": "Send {method} to",
+  "@booking_sendMethodTo": {
+    "placeholders": {
+      "method": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_contactSupportForTransfer": "Contact support for the transfer details.",
+  "booking_copyAccount": "Copy account",
+  "booking_accountNumberCopied": "Account number copied.",
+  "booking_transferReferenceOptional": "Transfer reference (optional)",
+  "booking_paidFromPhoneOptional": "Phone number you paid from (optional)",
+  "booking_distanceMeters": "{meters} m",
+  "@booking_distanceMeters": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_distanceKm": "{km} km",
+  "@booking_distanceKm": {
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_ridersCount": "{count} riders",
+  "@booking_ridersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_tracingRoad": "Tracing road…",
+  "booking_sortShortestDuration": "Shortest duration",
+  "booking_sortMostTrips": "Most trips",
+  "booking_filterRoutes": "Filter routes",
+  "booking_seatsAvailableShort": "Seats available",
+  "booking_checkLater": "Check later",
+  "booking_noActiveRoutesYet": "No active routes yet",
+  "booking_routesFromDashboardAppear": "Routes published from the dashboard will appear here when they are ready for booking.",
+  "booking_refreshRoutes": "Refresh routes",
+  "booking_noRoutesMatchSearch": "No routes match your search",
+  "booking_tryDifferentSearchTerm": "Try a different search term or adjust your filters.",
+  "booking_resetFilters": "Reset filters",
+  "booking_pricesAreForRoute": "Prices are for {pickup} → {dropoff}.",
+  "@booking_pricesAreForRoute": {
+    "placeholders": {
+      "pickup": {
+        "type": "String"
+      },
+      "dropoff": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_yourPickupFallback": "your pickup",
+  "booking_yourStopFallback": "your stop",
+  "booking_optionsCount": "{count} options",
+  "@booking_optionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booking_chooseYourFare": "Choose your fare",
+  "booking_reviewBooking": "Review booking",
+  "seatSelection_defaultVehicleName": "Standard Coach",
+  "seatSelection_defaultRoute": "Route not selected",
+  "communication_hoursAgo": "{hours} hr ago",
+  "@communication_hoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_inviteMessage": "Join me on EasyWay and book your daily commute! Use my referral code {code} to get a welcome reward.\n{link}",
+  "@referral_inviteMessage": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "mySubscription_title": "My Subscription",
+  "mySubscription_statusActive": "Active",
+  "mySubscription_statusExpired": "Expired",
+  "mySubscription_statusPending": "Pending",
+  "mySubscription_started": "Started",
+  "mySubscription_expires": "Expires",
+  "mySubscription_tripsUsedOfTotal": "{used} of {total} trips used",
+  "@mySubscription_tripsUsedOfTotal": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mySubscription_tripsRemaining": "{count} trips remaining",
+  "@mySubscription_tripsRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mySubscription_daysUsedOfTotal": "{used} of {total} days used",
+  "@mySubscription_daysUsedOfTotal": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mySubscription_statDaysLeft": "Days left",
+  "mySubscription_statRidesLeft": "Rides left",
+  "mySubscription_unlimitedTrips": "Unlimited trips",
+  "mySubscription_emptyTitle": "No active subscription",
+  "mySubscription_emptyBody": "Packages are offered while you book a trip, priced for the route you pick.",
+  "mySubscription_findTrip": "Find a trip",
+  "trips_attentionAwaitingReviewTitle": "Waiting for the office to check your payment",
+  "trips_attentionAwaitingReviewBody": "Your seat is held while {office} reviews the receipt. We'll notify you as soon as it's approved.",
+  "@trips_attentionAwaitingReviewBody": {
+    "placeholders": {
+      "office": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_attentionAwaitingReviewBodyNoOffice": "Your seat is held while the office reviews the receipt. We'll notify you as soon as it's approved.",
+  "trips_attentionPaymentIncompleteTitle": "Payment not completed",
+  "trips_attentionPaymentIncompleteBody": "Your seat is only held until payment is settled. Finish paying or cancel to free it.",
+  "trips_attentionPaymentRejectedTitle": "Payment was not accepted",
+  "trips_attentionPaymentRejectedBody": "The office could not verify this payment. Contact support or book again.",
+  "trips_attentionRefundDueTitle": "This trip was cancelled after you paid",
+  "trips_attentionRefundDueBody": "You are owed a refund for this booking. Open support to follow it up.",
+  "trips_attentionNeedsSupportTitle": "This booking needs checking",
+  "trips_attentionNeedsSupportBody": "Its booking and payment records disagree, so we won't guess. Please contact support with reference {reference}.",
+  "@trips_attentionNeedsSupportBody": {
+    "placeholders": {
+      "reference": {
+        "type": "String"
+      }
+    }
+  },
+  "trips_attentionOpenSupport": "Contact support",
+  "trips_seatHeldNotYours": "Seat held — not confirmed yet",
+  "trips_bookingStateReserved": "Awaiting approval",
+  "trips_bookingStateConfirmed": "Confirmed",
+  "trips_bookingStateCompleted": "Travelled",
+  "trips_bookingStateCancelled": "Cancelled",
+  "offices_nothingListedTitle": "This office has nothing listed right now",
+  "offices_nothingListedBody": "No departures and no routes are published yet. Try another office, or search every route on the platform.",
+  "offices_browseOtherOffices": "Browse other offices",
+  "offices_searchAllRoutes": "Search all routes",
+  "offices_new": "New",
+  "offices_statDepartures": "Departures",
+  "offices_statRoutes": "Routes",
+  "offices_statPackages": "Packages",
+  "packages_priceAtBooking": "Price shown when you pick a trip",
+  "packages_priceDependsTitle": "Priced on the route you pick",
+  "packages_priceDependsBody": "Every route has its own fare, so this package is priced once you choose a trip.",
+  "packages_howItWorks": "How it works",
+  "packages_step1Title": "Pick your route",
+  "packages_step1Body": "Choose the trip you commute on — the package binds to that route.",
+  "packages_step2Title": "See your price",
+  "packages_step2Body": "The package is priced for that exact route, then you pay once.",
+  "packages_step3Title": "Ride your seats",
+  "packages_step3Body": "Book any departure on the route until your rides or days run out.",
+  "offices_directoryLead": "Every operator selling seats on EWT, best rated first.",
+  "offices_countLabel": "{count, plural, =1{1 operator} other{{count} operators}}",
+  "@offices_countLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "offices_matchesLabel": "{count, plural, =1{1 match} other{{count} matches}}",
+  "@offices_matchesLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "offices_moreAreasCount": "+{count}",
+  "@offices_moreAreasCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "offices_openProfile": "Departures & routes",
+  "offices_routesCount": "{count, plural, =1{1 operating route} other{{count} operating routes}}",
+  "@offices_routesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "offices_ratingsCountCompact": "({count})",
+  "@offices_ratingsCountCompact": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "offices_serves": "Serves",
+  "offices_statRating": "Rating",
+  "offices_unrated": "Unrated",
+  "booking_routePackagesTitle": "Commute packages",
+  "booking_routePackagesSubtitle": "Ride this route often? A plan costs less per seat.",
+  "booking_routePackagesBy": "Sold by {office}",
+  "@booking_routePackagesBy": {
+    "placeholders": {
+      "office": {
+        "type": "String"
+      }
+    }
+  },
+  "booking_routePackageFrom": "From",
+  "booking_routePackageChoose": "Book with this plan",
+  "booking_routePackagesNote": "The exact price is confirmed once you pick your stops and departure.",
+  "wallet_title": "My wallet",
+  "wallet_subtitle": "Your balance at each office and its history",
+  "wallet_totalLabel": "Total balance",
+  "wallet_totalOneOffice": "Usable only at the office that granted it.",
+  "wallet_totalManyOffices": "Split across {count} offices — each balance is usable only at the office holding it.",
+  "@wallet_totalManyOffices": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "wallet_emptyTitle": "No balance in your wallet",
+  "wallet_emptyBody": "Anything an office refunds you, or grants you as a reward, appears here.",
+  "wallet_frozenNotice": "This office has paused your balance. Contact them to find out why.",
+  "wallet_entryCount": "{count, plural, =1{1 entry} other{{count} entries}}",
+  "@wallet_entryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "wallet_entriesTruncated": "Showing the {count} most recent entries only.",
+  "@wallet_entriesTruncated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "wallet_balanceAfter": "Balance {amount}",
+  "@wallet_balanceAfter": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "wallet_kindRefund": "Refund",
+  "wallet_kindCashback": "Cashback",
+  "wallet_kindManualCredit": "Credit added",
+  "wallet_kindManualDebit": "Deduction",
+  "wallet_kindWalletSpend": "Paid from wallet",
+  "wallet_kindWalletTopup": "Top-up",
+  "wallet_kindReversal": "Correction",
+  "auth_comingSoon": "Soon",
+  "auth_continueWithGoogle": "Continue with Google",
+  "auth_continueWithApple": "Continue with Apple",
+  "auth_continueWithPhone": "Continue with phone number",
+  "auth_phoneShort": "Phone",
+  "auth_alternativeMethodsPendingNote": "These sign-in methods are being set up. Use your email for now.",
+  "auth_methodUnavailable": "This sign-in method isn't available yet. Use your email and password.",
+  "auth_phoneLoginTitle": "Phone sign-in",
+  "auth_phoneLoginSubtitle": "Enter your phone number and we'll send you a verification code.",
+  "auth_phoneOtpHelper": "We'll text a verification code to this number.",
+  "auth_sendOtpCode": "Send verification code",
+  "auth_phoneOtpSecurityNote": "Standard SMS rates from your carrier may apply.",
+  "auth_otpTitle": "Enter verification code",
+  "auth_otpIntro": "We sent a {count}-digit code to",
+  "@auth_otpIntro": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "auth_verifyCode": "Verify code",
+  "auth_resendCodeIn": "You can resend in {timer}",
+  "@auth_resendCodeIn": {
+    "placeholders": {
+      "timer": {
+        "type": "String"
+      }
+    }
+  },
+  "auth_changePhoneNumber": "Change phone number",
+  "auth_otpInvalidCode": "That code isn't right. Check the digits and try again.",
+  "auth_otpExpiredCode": "That code has expired. Request a new one.",
+  "auth_otpRateLimited": "Too many attempts. Wait a moment before requesting a new code.",
+  "routes_catalogLead": "Every corridor running on EWT, across every operator.",
+  "routes_countLabel": "{count, plural, =1{1 route} other{{count} routes}}",
+  "@routes_countLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routes_matchesLabel": "{count, plural, =1{1 match} other{{count} matches}}",
+  "@routes_matchesLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routes_searchHint": "Search by route, city, station, or company",
+  "routes_viaStation": "Passing through {stationName}",
+  "@routes_viaStation": {
+    "placeholders": {
+      "stationName": {
+        "type": "String"
+      }
+    }
+  },
+  "routes_noSearchResults": "No route matches \"{query}\"",
+  "@routes_noSearchResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "routes_clearSearch": "Clear search",
+  "routes_catalogEmpty": "No routes are running right now.",
+  "routes_pickupOnly": "Pickup only",
+  "routes_dropoffOnly": "Drop-off only",
+  "routes_stopsCount": "{count, plural, =1{1 stop} other{{count} stops}}",
+  "@routes_stopsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routes_bookThisRoute": "Book this route",
+  "routes_operatedBy": "Operated by {officeName}",
+  "@routes_operatedBy": {
+    "placeholders": {
+      "officeName": {
+        "type": "String"
+      }
+    }
+  },
+  "routes_availabilityBookable": "Available to book",
+  "routes_availabilitySoldOut": "Fully booked",
+  "routes_availabilityNone": "No trips on sale",
+  "routes_nextDepartureDay": "Next departure {day}",
+  "@routes_nextDepartureDay": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "routes_nextDepartureDayTime": "Next departure {day} · {time}",
+  "@routes_nextDepartureDayTime": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "routes_seatsLeft": "{count, plural, =1{1 seat left} other{{count} seats left}}",
+  "@routes_seatsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
